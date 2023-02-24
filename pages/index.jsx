@@ -1,15 +1,17 @@
 import Layout from '@/Layouts/Layout'
 import Image from 'next/image'
 import Product from '@/components/Product'
-import { getProducts } from '@/services/productsServices'
+import { tvList } from '@/pages/api/televisions'
 
 import styles from '@/styles/Products.module.scss'
 
-import { tvList } from '@/pages/api/televisions'
 
 export default function Home({tvList}) {
   return (
-    <Layout>
+    <Layout 
+    title="Las mejores televisiones de 2023 - Comparativa y guía de compra" 
+    description="Encuentra la mejor televisión para ti en 2023 con nuestra comparativa y guía de compra. Analizamos las características de las principales marcas y modelos para que puedas tomar una decisión informada. ¡No pierdas más tiempo buscando, encuentra tu televisión ideal aquí!"
+    >
       <div className='Page FormatingText'>
         <header>
           <h1>Top 10: Las mejores Smart TV del 2023</h1>  
@@ -22,11 +24,6 @@ export default function Home({tvList}) {
             <p>Además, en nuestra guía de compra, te ayudamos a entender las características importantes para encontrar <strong>la televisión perfecta sin complicarte con tecnicismos y conceptos abstractos</strong>. ¡Descubre la tele perfecta para ti en nuestra lista de las mejores smart TV de 2023!</p>
             <p>Adquirir un televisor es una inversión que no se hace con frecuencia, por lo que es <strong>esencial tomar una decisión informada para asegurar una buena experiencia a largo plazo</strong>. Hay muchos factores que considerar, como la calidad de imagen, el sonido, el diseño y el rendimiento en gaming. Para ayudarte en tu elección, hemos evaluado y seleccionado los mejores modelos de smart TV disponibles, teniendo en cuenta todas estas características.</p>
         </section>
-
-        {
-          console.log(tvList)
-        }
-
         { 
           tvList.map(item => (
               <Product key={item.id} item={item} />
@@ -36,22 +33,6 @@ export default function Home({tvList}) {
     </Layout>
   )
 }
-
-/*
-export async function getStaticProps () {
-  try {
-    const res = await getProducts();
-
-    return {
-      props: {
-        data: res,
-      }
-    }
-  } catch (error) {
-    console.log(error)
-  }
-}
-*/
 
 export const getStaticProps = async () => {
   return {
