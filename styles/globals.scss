@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply bg-slate-100;
+}
+
 a {
     @apply text-orange-600;
     @apply hover:text-orange-400;
 }
+
 
 .Page {
     @apply container m-auto py-16;
@@ -25,6 +30,6 @@ a {
     }
 
     p {
-        @apply mb-4;
+        @apply mb-4 text-slate-600;
     }
 }

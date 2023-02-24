@@ -2,7 +2,7 @@
     @apply sticky top-0 z-10 w-full border-b bg-slate-900 border-b border-slate-700 shadow-lg;
 
     &_container {
-        @apply container m-auto flex justify-between items-center p-4;
+        @apply container mx-auto flex justify-between items-center p-4;
     }
 
     &_left {
@@ -34,5 +34,5 @@
 }
 
 .Content {
-    @apply bg-slate-200;
+    @apply container mx-auto px-32;
 }
