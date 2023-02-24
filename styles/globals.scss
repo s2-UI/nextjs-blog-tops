@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    @apply text-orange-600;
+    @apply hover:text-orange-400;
+}
+
+.Page {
+    @apply container m-auto py-16;
+}
+
+.FormatingText {
+    h1 {
+        @apply text-slate-800 font-bold text-4xl text-center mb-8;
+    }
+
+    h2 {
+        @apply text-slate-600 font-semibold text-2xl mb-4;
+    }
+
+    h3 {
+
+    }
+
+    p {
+        @apply mb-4;
+    }
+}

@@ -1,0 +1,11 @@
+.TopSection {
+    @apply after:w-full after:block after:clear-both mb-16;
+
+    &_text {
+        
+    }
+
+    &_image {
+        @apply float-right ml-8 mb-4;
+    }
+}

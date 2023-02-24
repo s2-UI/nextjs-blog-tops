@@ -1,0 +1,38 @@
+.Header {
+    @apply sticky top-0 z-10 w-full border-b bg-slate-900 border-b border-slate-700 shadow-lg;
+
+    &_container {
+        @apply container m-auto flex justify-between items-center p-4;
+    }
+
+    &_left {
+        @apply flex justify-start items-center;
+    }
+
+    &_right {
+        @apply flex justify-end items-center;
+    }
+}
+
+.Logo {
+
+}
+
+.Nav {
+    &_ul {
+        @apply flex gap-8;
+    }
+
+    &_li {
+
+    }
+
+    &_a {
+        @apply text-slate-50 font-medium capitalize;
+        @apply hover:text-cyan-300;
+    }
+}
+
+.Content {
+    @apply bg-slate-200;
+}
