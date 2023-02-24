@@ -5,7 +5,9 @@ import { getProducts } from '@/services/productsServices'
 
 import styles from '@/styles/Products.module.scss'
 
-export default function Home({data}) {
+import { tvList } from '@/pages/api/televisions'
+
+export default function Home({tvList}) {
   return (
     <Layout>
       <div className='Page FormatingText'>
@@ -22,7 +24,11 @@ export default function Home({data}) {
         </section>
 
         {
-          data.map(item => (
+          console.log(tvList)
+        }
+
+        { 
+          tvList.map(item => (
               <Product key={item.id} item={item} />
           ))
         }
@@ -31,6 +37,7 @@ export default function Home({data}) {
   )
 }
 
+/*
 export async function getStaticProps () {
   try {
     const res = await getProducts();
@@ -42,5 +49,14 @@ export async function getStaticProps () {
     }
   } catch (error) {
     console.log(error)
+  }
+}
+*/
+
+export const getStaticProps = async () => {
+  return {
+    props: {
+      tvList
+    },
   }
 }
