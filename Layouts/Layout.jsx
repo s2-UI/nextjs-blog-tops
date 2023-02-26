@@ -21,7 +21,7 @@ function Layout({ children, title, description }) {
         <header className={styles.Header}>
             <div className={styles.Header_container}>
                 <div className={styles.Header_left}>
-                    <Link className={styles.Logo} href="/" title="ReviewsHub.es" alt="Enlace a ReviewsHub.es">ReviewsHub.es</Link>
+                    <Link className={styles.Logo} href="/" title="ReviewsHub.es">ReviewsHub.es</Link>
                     {/* <Image className={styles.Logo} src="/logo.png" alt="Logo principal de pickiwise" width={512} height={512} /> */}
                 </div>
                 <div className={styles.Header_right}>

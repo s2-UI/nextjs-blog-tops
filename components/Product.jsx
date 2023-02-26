@@ -12,7 +12,7 @@ function Product({item}) {
             <h2 className={styles.Header_h2}>{item.pos}. <Link href={item.link} title={item.linkTitle} target="_blank">{item.name}</Link> <span className={styles.Header_price}><span>{item.price}</span><span className={styles.Header_decimals}>,{item.decimal}€</span></span></h2>
 
             <section className={styles.Header_section}>
-                <h4 className={styles.Header_h4}>Características</h4>
+                <h3 className={styles.Header_h4}>Características</h3>
 
                 <ul className={styles.Header_ul}>
                     <li className={styles.Header_li}><strong>Panel:</strong> {item.features.panel}</li>
@@ -23,21 +23,22 @@ function Product({item}) {
             </section>
         </header>
 
-        <section className={styles.Section}>
+        <div className={styles.Section}>
             <Link href={item.link} title={item.linkTitle} target="_blank">
-                <Image className={styles.Section_image} src={item.image} alt={item.imageAlt} width={524} height={100} />
+                <Image className={styles.Section_image} src={item.image} alt={item.imageAlt} title={item.linkTitle} width={524} height={100} />
             </Link>
             {
                 item.text.map(text => (
                     <p key={uuidv4()}>{text}</p>
                 ))
             }
-        </section>
+        </div>
 
         <footer className={styles.Footer}>
             <section className={styles.Footer_section}>
                 <div className={styles.Review}>
-                    <h3 className={styles.Review_h3}>Pros</h3>
+                    <h4 className={styles.Review_h3}>Pros</h4>
+
                     <ul className={styles.Review_ul}>
                         {
                             item.pros.map(pros => (
@@ -47,7 +48,8 @@ function Product({item}) {
                     </ul>
                 </div>
                 <div className={`${styles.Review} ${styles.Review__red}`}>
-                    <h3 className={styles.Review_h3}>Contras</h3>
+                    <h4 className={styles.Review_h3}>Contras</h4>
+
                     <ul className={styles.Review_ul}>
                         {
                             item.con.map(con => (
@@ -58,15 +60,15 @@ function Product({item}) {
                 </div>
             </section>
 
-            <section className={styles.WidgetAmazon}>
+            <div className={styles.WidgetAmazon}>
                 <div className={styles.WidgetAmazon_wrapperImage}>
                     <Link href={item.link} title={item.linkTitle} target="_blank">
-                        <Image className={styles.WidgetAmazon_image} src={item.image} alt={item.imageAlt} width={524} height={100} />
+                        <Image className={styles.WidgetAmazon_image} src={item.image} alt={item.imageAlt} title={item.linkTitle} width={524} height={100} />
                     </Link>
                 </div>
                 <div className={styles.WidgetAmazon_wrapperText}>
                     <Link href={item.link} title={item.linkTitle} target="_blank">
-                        <h3 className={styles.WidgetAmazon_h3}>{item.name}</h3>
+                        <h5 className={styles.WidgetAmazon_h3}>{item.name}</h5>
                     </Link>
                     <p className={styles.WidgetAmazon_p}>{item.shortDesc}</p>
                 </div>
@@ -79,7 +81,7 @@ function Product({item}) {
                         {item.rating} valoraciones
                     </Link>
                 </div>
-            </section>
+            </div>
         </footer>      
     </article>
   )
