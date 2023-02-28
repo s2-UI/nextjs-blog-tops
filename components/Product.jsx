@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { v4 as uuidv4 } from 'uuid';
 import ReactStars from 'react-stars'
+import parse from 'html-react-parser';
 
 import styles from '@/styles/Product.module.scss'
 
@@ -29,7 +30,7 @@ function Product({item}) {
             </Link>
             {
                 item.text.map(text => (
-                    <p key={uuidv4()}>{text}</p>
+                    <p key={uuidv4()}>{parse(text)}</p>
                 ))
             }
         </div>

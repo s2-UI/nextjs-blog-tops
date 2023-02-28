@@ -11,25 +11,41 @@ a {
     @apply hover:text-orange-400;
 }
 
-
-.Page {
-    @apply container m-auto py-16;
+h2 {
+    @apply text-slate-600 font-semibold text-2xl mb-4;
 }
 
-.FormatingText {
-    h1 {
-        @apply text-slate-800 font-bold text-4xl text-center mb-8;
-    }
-
-    h2 {
-        @apply text-slate-600 font-semibold text-2xl mb-4;
-    }
-
-    h3 {
-
-    }
-
-    p {
-        @apply mb-4 text-slate-600;
-    }
+h3 {
+    @apply text-slate-500 font-semibold text-xl mb-4;
 }
+
+p {
+    @apply mb-4 text-slate-600;
+}
+
+strong {
+    @apply text-slate-500;
+}
+
+
+// .Page {
+//     @apply container m-auto;
+// }
+
+// .FormatingText {
+//     h1 {
+//         @apply text-slate-800 font-bold text-4xl text-center mb-8;
+//     }
+
+//     h2 {
+//         @apply text-slate-600 font-semibold text-2xl mb-4;
+//     }
+
+//     h3 {
+
+//     }
+
+//     p, ul {
+//         @apply mb-4 text-slate-600;
+//     }
+// }

@@ -9,3 +9,13 @@
         @apply float-right ml-8 mb-4;
     }
 }
+
+.Page {
+    @apply container;
+    @apply md:p-4 md:m-auto;
+}
+
+.h1 {
+    @apply text-slate-900 font-bold text-3xl drop-shadow-sm mb-8;
+    @apply md:text-5xl;
+}

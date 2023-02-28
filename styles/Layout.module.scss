@@ -34,5 +34,31 @@
 }
 
 .Content {
-    @apply container mx-auto px-32;
+    @apply p-4;
+}
+
+.Footer {
+    @apply w-full border-b bg-slate-900 border-t border-slate-700 text-slate-300 p-4;
+
+    &_container {
+        @apply container mx-auto first-letter:flex flex-col justify-between gap-8;
+        @apply md:flex-row md:px-32;
+    }
+
+    &_brand  {
+        @apply basis-80;
+    }   
+
+    &_afiliado {
+        @apply basis-80;
+    }
+
+    &_derechos {
+        @apply text-sm border-t border-slate-800 mt-4 pt-4;
+    }
+
+    a {
+        @apply text-slate-50 font-semibold;
+        @apply hover:text-orange-600;
+    }
 }

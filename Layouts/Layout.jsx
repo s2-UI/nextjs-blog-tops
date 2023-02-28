@@ -25,25 +25,15 @@ function Layout({ children, title, description }) {
                     {/* <Image className={styles.Logo} src="/logo.png" alt="Logo principal de pickiwise" width={512} height={512} /> */}
                 </div>
                 <div className={styles.Header_right}>
-                    {/* <nav className={styles.Nav}>
+                    <nav className={styles.Nav}>
                         <ul className={styles.Nav_ul}>
                             <li className={styles.Nav_li}>
-                                <Link className={styles.Nav_a} href="" title="">
-                                    Texto
-                                </Link>
-                            </li>
-                            <li className={styles.Nav_li}>
-                                <Link className={styles.Nav_a} href="" title="">
-                                    Texto
-                                </Link>
-                            </li>
-                            <li className={styles.Nav_li}>
-                                <Link className={styles.Nav_a} href="" title="">
-                                    Texto
+                                <Link className={styles.Nav_a} href="/televisores/las-cinco-mejores-marcas" title="Las 5 mejores marcas de televisores del mercado">
+                                    Mejores Marcas
                                 </Link>
                             </li>
                         </ul>
-                    </nav> */}
+                    </nav>
                 </div>
             </div>
         </header>
@@ -53,7 +43,29 @@ function Layout({ children, title, description }) {
         </div>
 
         <footer className={styles.Footer}>
+            <div className={styles.Footer_container}>
+                <div className={styles.Footer_brand}>
+                    <p>En <Link href="/" title="ReviewsHub.es">ReviewsHub.es</Link> podrás encontrar las últimas novedades en tecnología, así como ofertas y análisis de artículos tecnológicos destacados, como televisores inteligentes, gadgets de última generación, wearables, ordenadores portátiles, tablets y mucho más. Mantente actualizado con las mejores noticias y reseñas en <Link href="/" title="ReviewsHub.es">ReviewsHub.es</Link>.</p>
+                </div>
+                <div className={styles.Footer_afiliado}>
+                    <p>En calidad de Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables en Amazon y otras tiendas online.</p>
+                </div>
+                <div className={styles.Footer_about}>
+                    <h2>Sobre ReviewsHub.es</h2>
 
+                    <ul>
+                        <li><Link href="/aviso-legal" title="Aviso legal">Aviso legal</Link></li>
+                        <li><Link href="/politica-de-cookies" title="Cookies">Cookies</Link></li>
+                        <li><Link href="/" title="Privacidad">Privacidad</Link></li>
+                        <li><Link href="/" title="Contacto">Contacto</Link></li>
+                    </ul>
+                </div>
+            </div>
+            <div className={styles.Footer_derechos}>
+                <div className={styles.Footer_container}>
+                    <p>2022 - 2023 © Derechos reservados por <Link href="/" title="ReviewsHub.es">ReviewsHub.es</Link></p>
+                </div>
+            </div>
         </footer>
       </main>
     </>
