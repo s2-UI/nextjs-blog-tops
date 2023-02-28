@@ -28,6 +28,11 @@ function Layout({ children, title, description }) {
                     <nav className={styles.Nav}>
                         <ul className={styles.Nav_ul}>
                             <li className={styles.Nav_li}>
+                                <Link className={styles.Nav_a} href="/" title="Las 10 mejores smart tv del 2023">
+                                    Mejores Smart TV 2023
+                                </Link>
+                            </li>
+                            <li className={styles.Nav_li}>
                                 <Link className={styles.Nav_a} href="/televisores/las-cinco-mejores-marcas" title="Las 5 mejores marcas de televisores del mercado">
                                     Mejores Marcas
                                 </Link>
