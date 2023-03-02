@@ -1,4 +1,5 @@
 import Layout from '@/Layouts/Layout'
+import Head from 'next/head'
 
 
 export default function AvisoLegal() {
@@ -7,6 +8,10 @@ export default function AvisoLegal() {
     title="Política de Cookies - ReviewsHub" 
     description="En esta web recopilo y utilizo la información según indico en mi política de privacidad. Una de las formas en las que recopiló información es a través del uso"
     >
+      <Head>
+        <meta name='robots' content='noindex' />
+      </Head>
+
       <div className='Page FormatingText'>
         <header>
           <h1>Aviso Legal</h1>

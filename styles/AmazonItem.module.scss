@@ -1,0 +1,30 @@
+.Root {
+    @apply bg-slate-200 p-4 rounded-lg;
+    @apply md:p-12;
+
+}
+
+.Img {
+    @apply m-auto mb-8;
+}
+
+.P {
+
+}
+
+.Footer {
+    @apply mt-8 flex flex-col justify-end items-center;
+}
+
+.Link {
+    @apply bg-orange-400 text-slate-900 rounded-full py-2 px-8 w-auto font-semibold text-center flex items-center gap-4;
+    @apply hover:text-slate-900 hover:bg-orange-600;
+
+    svg {
+        @apply text-lg;
+    }
+}
+
+.Reviews {
+    @apply mb-4;
+}

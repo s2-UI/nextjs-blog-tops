@@ -1,0 +1,19 @@
+.Item {
+    $parent: &;
+
+    &_container {
+        @apply flex flex-col bg-slate-50 p-4 border border-slate-300 h-full;
+        
+        &:hover {
+            @apply bg-slate-300;
+
+            #{$parent}_h2 {
+                @apply text-orange-600;
+            }
+        }
+    }
+
+    &_img {
+        @apply mb-4;
+    }
+} 

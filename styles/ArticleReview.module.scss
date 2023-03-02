@@ -1,0 +1,16 @@
+.Root {
+
+}
+
+.H2 {
+    @apply text-slate-600 font-semibold text-2xl mb-4;
+}
+
+.P {
+    @apply mb-4 text-slate-600;
+}
+
+.AmzContainer {
+    @apply flex flex-col py-8 gap-8;
+    @apply md:flex-row md:gap-16;
+}

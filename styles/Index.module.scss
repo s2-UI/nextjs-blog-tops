@@ -1,0 +1,22 @@
+.Header {
+  @apply bg-slate-400;
+
+  &_h1 {
+    @apply mb-8 text-4xl font-bold text-slate-800;
+    @apply md:text-6xl;
+  }
+
+  &_cap {
+    @apply -mb-1 ml-1 font-semibold text-slate-800;
+  }
+
+  &_subtitle {
+    @apply font-semibold text-slate-800;
+    @apply md:pr-96;
+  }
+}
+
+.Container {
+  @apply grid grid-cols-1 gap-4;
+  @apply md:grid-cols-3;
+}

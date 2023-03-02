@@ -12,11 +12,17 @@
     &_right {
         @apply flex justify-end items-center;
     }
+
+    &_button {
+        @apply bg-slate-50 p-2 rounded-lg text-2xl border border-orange-600 shadow-md;
+        @apply md:hidden;
+    }
 }
 
 .Logo {
     @apply text-slate-50 text-3xl font-bold;
 }
+
 
 .Nav {
     &_ul {
@@ -24,33 +30,43 @@
     }
 
     &_li {
+        @apply relative text-slate-50 font-medium capitalize py-2 px-4 cursor-pointer;
+        @apply hover:text-slate-800 hover:bg-slate-200;
+    }
+}
 
+.Subnav {
+    @apply absolute top-full right-0 bg-slate-200 min-w-fit shadow-lg rounded-lg rounded-tr-none hidden;
+
+    &_li {
+        @apply border-b border-slate-400 py-2 px-4;
+        @apply first:rounded-tr-lg first:rounded-tl-lg;
+        @apply last:border-b-0;
     }
 
     &_a {
-        @apply text-slate-50 font-medium capitalize;
-        @apply hover:text-cyan-300;
+       @apply whitespace-nowrap text-slate-800 font-bold;
     }
 }
 
 .Content {
-    @apply p-4;
+    
 }
 
 .Footer {
     @apply w-full border-b bg-slate-900 border-t border-slate-700 text-slate-300 p-4;
 
     &_container {
-        @apply container mx-auto first-letter:flex flex-col justify-between gap-8;
-        @apply md:flex-row md:px-32;
+        @apply container mx-auto flex flex-col justify-between;
+        @apply md:flex-row md:gap-8;
     }
 
     &_brand  {
-        @apply basis-80;
+        @apply md:basis-80;
     }   
 
     &_afiliado {
-        @apply basis-80;
+        @apply md:basis-80;
     }
 
     &_derechos {

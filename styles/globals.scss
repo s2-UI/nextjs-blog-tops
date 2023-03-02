@@ -27,6 +27,15 @@ strong {
     @apply text-slate-500;
 }
 
+.gb-container {
+    @apply container mx-auto p-4;
+}
+
+.gb-group:hover {
+    .gb-subgroup {
+        @apply block;
+    }
+}
 
 // .Page {
 //     @apply container m-auto;
