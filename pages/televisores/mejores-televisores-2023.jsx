@@ -11,6 +11,7 @@ export default function Home({tvList}) {
     <Layout 
     title="Las mejores televisiones de 2023 - Comparativa y guía de compra" 
     description="Encuentra la mejor televisión para ti en 2023 con nuestra comparativa y guía de compra. Analizamos las características de las principales marcas y modelos para que puedas tomar una decisión informada. ¡No pierdas más tiempo buscando, encuentra tu televisión ideal aquí!"
+    canonical='https://www.reviewshub.es/televisores/mejores-televisores-2023'
     >
       <div className={`${styles.Page} gb-container`}>
         <header>

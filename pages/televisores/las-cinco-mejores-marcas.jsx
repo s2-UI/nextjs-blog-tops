@@ -10,6 +10,7 @@ export default function Home({mejoresMarcas}) {
     <Layout 
     title="Las 5 mejores marcas de televisores del mercado en 2023" 
     description="Descubre cuáles son las 5 mejores marcas de televisores del mercado en 2023 y por qué debes considerarlas antes de realizar tu próxima compra."
+    canonical='https://www.reviewshub.es/televisores/las-cinco-mejores-marcas'
     >
       <article className={ArticleStyles.Root}>
         <div className={ArticleStyles.HeaderBg}>

@@ -1,5 +1,6 @@
 import AbstractArticle from '@/components/AbstractArticle';
 import Layout from '@/Layouts/Layout';
+import Head from 'next/head';
 
 import { abstractArticles } from '@/pages/api/abstractarticles';
 
@@ -10,6 +11,7 @@ export default function Home({ abstractArticles }) {
     <Layout
       title='Reviewshub.es - El mejor análisis de tecnología'
       description='Explora la página web de análisis de tecnología más confiable: Reviewshub.es. Lee nuestras reseñas de expertos en tecnología.'
+      canonical='https://www.reviewshub.es/'
     >
       <header className={indexStyles.Header}>
         <div className='gb-container'>

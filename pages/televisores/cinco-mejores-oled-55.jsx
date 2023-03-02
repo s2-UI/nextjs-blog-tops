@@ -10,6 +10,7 @@ function Home({mejoresOled}) {
     <Layout 
     title="Las 5 mejores TV OLED de 55 pulgadas calidad-precio" 
     description="Descubre las 5 mejores opciones de televisores OLED de 55 pulgadas en el rango medio de precio. Compara las características y precios de los modelos más populares del mercado. Encuentra el televisor perfecto para disfrutar de una calidad de imagen excepcional en tu hogar."
+    canonical='https://www.reviewshub.es/televisores/cinco-mejores-oled-55'
     >
       <article className={ArticleStyles.Root}>
         <div className={ArticleStyles.HeaderBg}>

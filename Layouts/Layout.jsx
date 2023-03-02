@@ -3,17 +3,18 @@ import Link from "next/link";
 
 import layoutStyles from "@/styles/Layout.module.scss";
 
-function Layout({ children, title, description }) {
+function Layout({ children, title, description, keywords="televisores 2023, comparativa televisores, mejores televisores, guía de compra de televisores, marcas de televisores, modelos de televisores, resolución de televisores, tamaño de televisores, pantallas OLED, pantallas QLED, HDR en televisores, Smart TV, precios de televisores, opiniones de televisores, análisis de televisores", canonical }) {
   return (
     <>
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="televisores 2023, comparativa televisores, mejores televisores, guía de compra de televisores, marcas de televisores, modelos de televisores, resolución de televisores, tamaño de televisores, pantallas OLED, pantallas QLED, HDR en televisores, Smart TV, precios de televisores, opiniones de televisores, análisis de televisores" />
+        <meta name="keywords" content={keywords} />
         <meta name="author" content="Samuel" />
         <meta name="robots" content="index,follow" />
         <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="canonical" href={canonical} />
       </Head>
 
       <main className={layoutStyles.Main}>
