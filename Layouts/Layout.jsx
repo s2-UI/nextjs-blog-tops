@@ -31,6 +31,11 @@ function Layout({ children, title, description, keywords="televisores 2023, comp
                                 Televisores
                                 <ul className={`${layoutStyles.Subnav} gb-subgroup`}>
                                     <li className={layoutStyles.Subnav_li}>
+                                        <Link className={layoutStyles.Subnav_a} href="/televisores/mejor-televisor-videojuegos" title="Cómo elegir el mejor televisor para videojuegos">
+                                            Mejor televisor para videojuegos
+                                        </Link>
+                                    </li>
+                                    <li className={layoutStyles.Subnav_li}>
                                         <Link className={layoutStyles.Subnav_a} href="/televisores/cinco-mejores-oled-55" title="Las 5 mejores TV OLED de 55 pulgadas">
                                             Las 5 mejores TV OLED de 55&quot;
                                         </Link>

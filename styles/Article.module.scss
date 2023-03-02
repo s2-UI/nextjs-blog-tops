@@ -40,3 +40,25 @@ $HeaderHeight: 40rem;
 .Content {
     @apply mt-8;
 }
+
+.Img {
+    &_left {
+        @apply float-left mr-8 mb-4;
+    }
+
+    &_right {
+        @apply float-right ml-8 mb-4;
+    }
+
+    &_center {
+        @apply m-auto w-full;
+    }
+}
+
+.Section {
+    @apply mb-24;
+}
+
+.H2 {
+    @apply after:clear-both border-b-4 border-orange-400 pb-2 font-bold;
+}

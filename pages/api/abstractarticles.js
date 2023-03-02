@@ -3,6 +3,16 @@ import { v4 as uuidv4 } from 'uuid';
 export const abstractArticles = [
   {
     id: uuidv4(),
+    link: '/televisores/mejor-televisor-videojuegos', 
+    linkTitle: 'Ver mejores las mejores smart tv para consolas', 
+    img: '/archivo/pexels-evg-kowalievska-1174746.jpg', 
+    imgTitle: 'Imágen de las mejores smart tv para consolas', 
+    imgAlt: 'Imágen de pareja jugando en la televisión', 
+    title: 'Cómo elegir el mejor televisor para videojuegos', 
+    description: '¿Quieres mejorar tu experiencia de juego? Descubre en nuestra guía cómo elegir el mejor televisor para videojuegos. Aprende sobre resolución, frecuencia de actualización, tiempo de respuesta y otras características importantes para disfrutar de juegos con calidad de imagen y sonido excepcional.',
+  },
+  {
+    id: uuidv4(),
     link: '/televisores/cinco-mejores-oled-55', 
     linkTitle: 'Ver mejores las 5 mejores TV OLED de 55 pulgadas', 
     img: '/archivo/pexels-max-rahubovskiy-5998135.jpg', 

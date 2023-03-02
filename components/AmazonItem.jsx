@@ -16,7 +16,7 @@ function AmazonItem({data}) {
 
         <div>
             {
-                data.texts.map((text) => (
+                data.texts?.map((text) => (
                     <p key={uuidv4()} className={AmazonItemStyles.P}>{parse(text)}</p>
                 ))
             }

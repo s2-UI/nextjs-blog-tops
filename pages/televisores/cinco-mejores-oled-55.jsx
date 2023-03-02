@@ -1,7 +1,7 @@
 import Layout from '@/Layouts/Layout'
 import Link from 'next/link'
 import AmazonItem from '@/components/AmazonItem'
-import { mejoresOled } from '../api/mejoresoled'
+import { mejoresOled } from '../api/amazonitemsmarttv'
 
 import ArticleStyles from '@/styles/Article.module.scss'
 
