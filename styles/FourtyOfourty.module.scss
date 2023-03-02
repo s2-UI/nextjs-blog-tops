@@ -1,0 +1,9 @@
+.Root {
+    @apply flex justify-center items-center;
+
+    height: calc(100vh - 24rem);
+}
+
+.H1 {
+    @apply font-bold text-3xl text-center;
+}
