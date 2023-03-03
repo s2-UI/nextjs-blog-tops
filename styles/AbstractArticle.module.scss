@@ -1,27 +1,27 @@
 .Item {
-    $parent: &;
+  $parent: &;
 
-    &_container {
-        @apply flex flex-col bg-slate-50 p-4 border border-slate-300 h-full;
-        
-        &:hover {
-            @apply bg-slate-200 transition-all;
+  &_container {
+    @apply flex h-full flex-col rounded-lg border border-slate-300 bg-slate-50 p-4 shadow-sm;
 
-            #{$parent}_h2 {
-                @apply text-orange-600;
-            }
+    &:hover {
+      @apply bg-slate-200 shadow-md transition-all;
 
-            #{$parent}_img {
-                @apply scale-150 transition-all duration-300;
-            }
-        }
+      #{$parent}_h2 {
+        @apply text-orange-600;
+      }
+
+      #{$parent}_img {
+        @apply scale-150 transition-all duration-300;
+      }
     }
+  }
 
-    &_wrapper_img {
-        @apply mb-4 h-56 flex items-center justify-center overflow-hidden;
-    }
+  &_wrapper_img {
+    @apply mb-4 flex h-56 items-center justify-center overflow-hidden;
+  }
 
-    &_img {
-        @apply scale-125;
-    }
-} 
+  &_img {
+    @apply scale-125;
+  }
+}

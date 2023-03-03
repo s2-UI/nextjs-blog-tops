@@ -13,9 +13,9 @@ export default function Home({ abstractArticles }) {
       description='Explora la página web de análisis de tecnología más confiable: Reviewshub.es. Lee nuestras reseñas de expertos en tecnología.'
       canonical='https://www.reviewshub.es/'
     >
-      {/* <header className={indexStyles.Header}>
+      <header className={indexStyles.Header}>
         <div className='gb-container'>
-          <p className={indexStyles.Header_cap}>
+          {/* <p className={indexStyles.Header_cap}>
             Encuentra los mejores productos en
           </p>
           <h1 className={indexStyles.Header_h1}>ReviewsHub.es</h1>
@@ -24,9 +24,10 @@ export default function Home({ abstractArticles }) {
             la mejor opción para ti? No te preocupes más, en Reviewshub.es te
             ofrecemos comparativas y reseñas de los productos más fiables de
             España.
-          </p>
+          </p> */}
+          <p className={indexStyles.Header_p}>¿Buscas los mejores productos tecnológicos del mercado y no sabes por dónde empezar? ¡No te preocupes más! En Reviewshub.es te ofrecemos comparativas y reseñas de los productos más fiables y avanzados para que elijas la mejor opción para ti.</p>
         </div>
-      </header> */}
+      </header>
 
       <div className={`${indexStyles.Container} gb-container`}>
         {abstractArticles.map((item) => (

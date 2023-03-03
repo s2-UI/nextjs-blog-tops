@@ -14,6 +14,10 @@
     @apply font-semibold text-slate-800;
     @apply md:pr-96;
   }
+
+  &_p {
+    @apply mb-0 font-semibold text-slate-600;
+  }
 }
 
 .Container {
