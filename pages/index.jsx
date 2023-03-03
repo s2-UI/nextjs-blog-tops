@@ -13,7 +13,7 @@ export default function Home({ abstractArticles }) {
       description='Explora la página web de análisis de tecnología más confiable: Reviewshub.es. Lee nuestras reseñas de expertos en tecnología.'
       canonical='https://www.reviewshub.es/'
     >
-      <header className={indexStyles.Header}>
+      {/* <header className={indexStyles.Header}>
         <div className='gb-container'>
           <p className={indexStyles.Header_cap}>
             Encuentra los mejores productos en
@@ -26,7 +26,7 @@ export default function Home({ abstractArticles }) {
             España.
           </p>
         </div>
-      </header>
+      </header> */}
 
       <div className={`${indexStyles.Container} gb-container`}>
         {abstractArticles.map((item) => (
