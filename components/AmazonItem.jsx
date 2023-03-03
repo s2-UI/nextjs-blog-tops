@@ -14,7 +14,7 @@ function AmazonItem({data}) {
             <Image className={AmazonItemStyles.Img} src={data.img} alt={data.imgAlt} title={data.imgTitle} width={300} height={100} />
         </Link>
 
-        <div>
+        <div className={AmazonItemStyles.Content}>
             {
                 data.texts?.map((text) => (
                     <p key={uuidv4()} className={AmazonItemStyles.P}>{parse(text)}</p>

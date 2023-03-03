@@ -1,19 +1,25 @@
 .Root {
     @apply bg-slate-200 p-4 rounded-lg;
-    @apply md:p-12;
+    @apply md:flex md:gap-4 md:justify-between md:items-center;
 
 }
 
 .Img {
     @apply m-auto mb-8;
+    @apply md:basis-1/4 md:mb-0;
 }
 
 .P {
 
 }
 
+.Content {
+    @apply md:basis-2/4;
+}
+
 .Footer {
     @apply mt-8 flex flex-col justify-end items-center;
+    @apply md:basis-1/4 md:mt-0;
 }
 
 .Link {
