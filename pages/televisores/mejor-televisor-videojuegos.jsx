@@ -140,9 +140,10 @@ export default function Home({mejoresVideojuegos}) {
                     </footer>
                 </article>
 
-                {/* <article className={`mt-8`}>
+                <article className={`mt-8`}>
                     <header>
                         <h3><Link href="https://amzn.to/41JkIse" title='Ver en Amazon Samsung QN90B' target='_blank'>Samsung QN90B</Link> - El televisor gaming más completo de 2022</h3>
+                        <Image className={ArticleStyles.Img_right} src='/tvs/samsung_50QN90B.png' alt='Samsung QN90B' title='Samsung QN90B' width={512} height={300} />
                     </header>
 
                     <section>
@@ -156,7 +157,7 @@ export default function Home({mejoresVideojuegos}) {
                     <footer>
                         <AmazonItem data={mejoresVideojuegos[2]} />
                     </footer>
-                </article> */}
+                </article>
            
 
                 
