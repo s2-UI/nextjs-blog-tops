@@ -1,36 +1,34 @@
 .Root {
-    @apply bg-slate-200 p-4 rounded-lg;
-    @apply md:flex md:gap-4 md:justify-between md:items-center;
-
+  @apply rounded-lg bg-slate-300 p-4;
+  @apply md:flex md:items-center md:justify-between md:gap-4;
 }
 
 .Img {
-    @apply m-auto mb-8;
-    @apply md:basis-1/4 md:mb-0;
+  @apply m-auto mb-8;
+  @apply md:mb-0 md:basis-1/4;
 }
 
 .P {
-
 }
 
 .Content {
-    @apply md:basis-2/4;
+  @apply md:basis-2/4;
 }
 
 .Footer {
-    @apply mt-8 flex flex-col justify-end items-center;
-    @apply md:basis-1/4 md:mt-0;
+  @apply mt-8 flex flex-col items-center justify-end;
+  @apply md:mt-0 md:basis-1/4;
 }
 
 .Link {
-    @apply bg-orange-400 text-slate-900 rounded-full py-2 px-8 w-auto font-semibold text-center flex items-center gap-4;
-    @apply hover:text-slate-900 hover:bg-orange-600;
+  @apply flex w-auto items-center gap-4 rounded-full bg-orange-400 py-2 px-8 text-center font-semibold text-slate-900;
+  @apply hover:bg-orange-600 hover:text-slate-900;
 
-    svg {
-        @apply text-lg;
-    }
+  svg {
+    @apply text-lg;
+  }
 }
 
 .Reviews {
-    @apply mb-4;
+  @apply mb-4;
 }

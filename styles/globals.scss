@@ -3,58 +3,36 @@
 @tailwind utilities;
 
 body {
-    @apply bg-slate-100;
+  @apply bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-gray-100 to-gray-300;
 }
 
 a {
-    @apply text-orange-600;
-    @apply hover:text-orange-400;
+  @apply text-orange-600;
+  @apply hover:text-orange-400;
 }
 
 h2 {
-    @apply text-slate-600 font-semibold text-2xl mb-4;
+  @apply mb-4 text-2xl font-semibold text-slate-600;
 }
 
 h3 {
-    @apply text-slate-500 font-semibold text-xl mb-4;
+  @apply mb-4 text-xl font-semibold text-slate-500;
 }
 
 p {
-    @apply mb-4 text-slate-600;
+  @apply mb-4 text-slate-600;
 }
 
 strong {
-    @apply text-slate-500;
+  @apply text-slate-500;
 }
 
 .gb-container {
-    @apply container mx-auto p-4;
+  @apply container mx-auto p-4;
 }
 
 .gb-group:hover {
-    .gb-subgroup {
-        @apply block;
-    }
+  .gb-subgroup {
+    @apply block;
+  }
 }
-
-// .Page {
-//     @apply container m-auto;
-// }
-
-// .FormatingText {
-//     h1 {
-//         @apply text-slate-800 font-bold text-4xl text-center mb-8;
-//     }
-
-//     h2 {
-//         @apply text-slate-600 font-semibold text-2xl mb-4;
-//     }
-
-//     h3 {
-
-//     }
-
-//     p, ul {
-//         @apply mb-4 text-slate-600;
-//     }
-// }

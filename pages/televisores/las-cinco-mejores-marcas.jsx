@@ -1,6 +1,5 @@
 import Layout from '@/Layouts/Layout'
-import ArticleReview from '@/components/ArticleReview'
-import { mejoresMarcas } from '@/pages/api/mejoresmarcas';
+import { mejoresMarcas } from '@/pages/api/amazonitemsmarttv';
 import Link from 'next/link';
 import AmazonItem from '@/components/AmazonItem';
 
@@ -39,13 +38,13 @@ export default function Home({mejoresMarcas}) {
               <div className={`mt-4 mb-4`}>
                 <h3 className={ArticleStyles.H3}>Samsung QN95B Neo QLED</h3>
                 <p>Uno de los mejores televisores de Samsung actualmente es el <strong>Samsung QN95B Neo QLED</strong>. Este modelo cuenta con una <strong>pantalla de alta calidad y resolución</strong>, una <strong>excelente calidad de imagen</strong> y un <strong>sonido envolvente</strong>. También cuenta con características como la tecnología de <strong>atenuación local</strong>, que mejora el contraste y el brillo en las áreas específicas de la pantalla, y una <strong>tasa de refresco de 120 Hz</strong> para una imagen más suave y nítida. Además, tiene una gran variedad de <strong>funciones inteligentes</strong> y una interfaz fácil de usar, lo que lo hace una excelente opción para aquellos que buscan una experiencia de visualización de alta calidad.</p>
-                <AmazonItem data={mejoresMarcas[0].items[0]} />
+                <AmazonItem data={mejoresMarcas[0]} />
               </div>
 
               <div className={`mt-4 mb-4`}>
                 <h3 className={ArticleStyles.H3}>Samsung Crystal UHD 2022 55AU7095</h3>
                 <p>Si estás buscando una <strong>buena relación calidad-precio</strong> en televisores Samsung, una buena opción puede ser el <strong>Samsung Crystal UHD 2022 55AU7095</strong>. Este modelo cuenta con una <strong>pantalla de alta resolución y calidad de imagen</strong>, con tecnología de <strong>cristal UHD</strong> que mejora la nitidez y la claridad de la imagen. También cuenta con una buena cantidad de <strong>funciones inteligentes</strong> y una interfaz fácil de usar. Además, su precio es bastante asequible en comparación con otros modelos de gama alta de Samsung, lo que lo hace una excelente opción para aquellos que buscan un televisor de buena calidad sin gastar demasiado dinero.</p>
-                <AmazonItem data={mejoresMarcas[0].items[1]} />
+                <AmazonItem data={mejoresMarcas[1]} />
               </div>
             </footer>
           </article>
@@ -63,13 +62,13 @@ export default function Home({mejoresMarcas}) {
               <div className={`mt-4 mb-4`}>
                 <h3 className={ArticleStyles.H3}>LG OLED65G26LA</h3>
                 <p>El LG OLED65G26LA es un televisor <strong>4K OLED evo Gallery Edition</strong> con un procesador inteligente de máxima potencia <strong>4K a9 Gen 5 con IA</strong>, compatible con el <strong>100% de formatos HDR, HDR Dolby Vision, Dolby Atmos</strong> y <strong>Smart TV webOS22</strong>. Con su diseño elegante y delgado, es ideal para <strong>colgar en la pared</strong>. Es considerado el mejor televisor para <strong>gaming</strong> gracias a su rapidez y calidad de imagen. Además, cuenta con un sistema de sonido <strong>AI Sound Dolby Atmos</strong> y es capaz de <strong>filtrar la luz azul dañina para tus ojos</strong>.</p>
-                <AmazonItem data={mejoresMarcas[1].items[0]} />
+                <AmazonItem data={mejoresMarcas[2]} />
               </div>
 
               <div className={`mt-4 mb-4`}>
                 <h3 className={ArticleStyles.H3}>LG OLED55A26LA</h3>
                 <p>El televisor LG <strong>OLED55A26LA</strong> es un modelo de gama alta con una pantalla OLED de 55 pulgadas y resolución <strong>4K</strong>. Cuenta con el procesador inteligente de gran potencia <strong>4K a7 Gen 5 con IA</strong>, lo que garantiza una excelente calidad de imagen y una experiencia de visualización más envolvente. Además, es compatible con el <strong>100% de formatos HDR, HDR Dolby Vision y Dolby Atmos</strong>, lo que permite disfrutar de una experiencia de audio envolvente y realista. También es ideal para <strong>gaming</strong>, ya que ofrece una tasa de refresco de <strong>120Hz</strong> y baja latencia de entrada. El diseño del televisor es elegante y minimalista, con un grosor muy delgado y bordes casi inexistentes.</p>
-                <AmazonItem data={mejoresMarcas[1].items[1]} />
+                <AmazonItem data={mejoresMarcas[3]} />
               </div>
             </footer>
           </article>
@@ -87,7 +86,7 @@ export default function Home({mejoresMarcas}) {
               <div className={`mt-4 mb-4`}>
                 <h3 className={ArticleStyles.H3}>Sony QD-OLED 55A95K/P</h3>
                 <p>El Sony <strong>QD-OLED 55A95K/P</strong> es un televisor OLED de 55 pulgadas con una resolución <strong>4K UHD</strong>, una tasa de refresco de <strong>120 Hz</strong> y una relación de aspecto de <strong>16:9</strong>. Tiene un panel <strong>QD-OLED</strong>, que combina la tecnología OLED con los puntos cuánticos para producir imágenes más brillantes y saturadas. También cuenta con un ángulo de visión amplio y un tipo de atenuación de retroiluminación. El televisor viene con soporte frontal de estilo y tiene unas dimensiones de <strong>11.81 x 11.81 pulgadas</strong> (300 x 300 mm) con el soporte incluido.</p>
-                <AmazonItem data={mejoresMarcas[2].items[0]} />
+                <AmazonItem data={mejoresMarcas[4]} />
               </div>
             </footer>
           </article>
@@ -105,7 +104,7 @@ export default function Home({mejoresMarcas}) {
               <div className={`mt-4 mb-4`}>
                 <h3 className={ArticleStyles.H3}>Philips 65OLED706/12</h3>
                 <p>La Philips 65OLED706/12 es una televisión de alta gama con pantalla OLED de 65 pulgadas y resolución 4K. Ofrece una calidad de imagen excelente gracias a su tecnología de procesamiento de imagen P5, compatible con HDR10+, Dolby Vision y HLG. Tiene sistema operativo Android TV con acceso a una gran variedad de aplicaciones y conectividad Wi-Fi y Bluetooth. También cuenta con altavoces integrados con tecnología Dolby Atmos y ambilight de 3 lados para una experiencia de visualización inmersiva.</p>
-                <AmazonItem data={mejoresMarcas[3].items[0]} />
+                <AmazonItem data={mejoresMarcas[5]} />
               </div>
             </footer>
           </article>
@@ -122,7 +121,7 @@ export default function Home({mejoresMarcas}) {
             <footer>
               <div className={`mt-4 mb-4`}>
                 <h3 className={ArticleStyles.H3}>Panasonic TX-65JX800</h3>
-                <AmazonItem data={mejoresMarcas[4].items[0]} />
+                <AmazonItem data={mejoresMarcas[6]} />
               </div>
             </footer>
           </article>
