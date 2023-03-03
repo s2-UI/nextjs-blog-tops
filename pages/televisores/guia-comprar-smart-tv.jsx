@@ -9,8 +9,8 @@ import AmazonItem from '@/components/AmazonItem'
 export default function Home({compraSmart}) {
   return (
     <Layout 
-    title="Consejos para comprar la mejor Smart TV en 2023 | Guía completa de compra de televisores inteligentes" 
-    description="¿Buscas la Smart TV perfecta para el 2023? Nuestra guía de compra de televisores inteligentes te presenta los consejos esenciales que debes conocer antes de hacer tu elección. Descubre todo lo que necesitas saber sobre el tamaño de pantalla, la resolución de imagen, el sistema operativo y la conectividad. ¡Asegúrate de elegir la Smart TV adecuada para ti y disfruta de una experiencia de visualización perfecta!"
+    title="Guía de compra de Smart TV: Consejos para la mejor televisión." 
+    description="Guía de compra de Smart TV para el 2023: Todo lo que necesitas saber antes de elegir. Tamaño de pantalla, resolución, sistema operativo y conectividad son los aspectos clave. ¡Asegúrate de encontrar la Smart TV adecuada y disfruta de una experiencia visual perfecta!"
     canonical='https://www.reviewshub.es/televisores/guia-comprar-smart-tv'
     >
       <article className={ArticleStyles.Root}>
@@ -19,14 +19,12 @@ export default function Home({compraSmart}) {
         </div>
 
         <header className={ArticleStyles.Header}>
-            <h1 className={ArticleStyles.Header_h1}>Guía completa para comprar la mejor Smart TV en 2023</h1>  
-
+            <h1 className={ArticleStyles.Header_h1}>Guía completa para comprar la mejor Smart TV en 2023</h1>
             <p className={ArticleStyles.Header_p}>Como expertos en tecnología, sabemos que elegir la televisión adecuada es crucial para tener una experiencia de visualización perfecta. Con la llegada del 2023, se espera que el mercado de Smart TVs siga creciendo, y por lo tanto, es importante que conozcas los consejos para comprar la Smart TV adecuada para ti.</p>
         </header>
 
         <div className={ArticleStyles.Content}>
             <p>En este artículo, te presentamos nuestra guía completa de compra de Smart TVs para el 2023. Encontrarás todo lo que necesitas saber antes de comprar una nueva televisión, desde el tamaño adecuado hasta la resolución de imagen, pasando por las características más importantes que debes tener en cuenta.</p>
-
 
             <section className={ArticleStyles.Section}>
                 <h2 className={ArticleStyles.H2}>¿Qué es una Smart TV?</h2>
