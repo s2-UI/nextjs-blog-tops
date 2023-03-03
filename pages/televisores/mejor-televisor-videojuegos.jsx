@@ -142,7 +142,7 @@ export default function Home({mejoresVideojuegos}) {
 
                 <article className={`mt-8`}>
                     <header>
-                        <h3><Link href="https://amzn.to/41JkIse" title='Ver en Amazon Samsung QN90B' target='_blank'>Samsung QN90B</Link> - El televisor gaming más completo de 2022</h3>
+                        <h3 className={ArticleStyles.H3}><Link href="https://amzn.to/41JkIse" title='Ver en Amazon Samsung QN90B' target='_blank'>Samsung QN90B</Link> - El televisor gaming más completo de 2022</h3>
                         <Image className={ArticleStyles.Img_right} src='/tvs/samsung_50QN90B.png' alt='Samsung QN90B' title='Samsung QN90B' width={512} height={300} />
                     </header>
 
@@ -156,6 +156,26 @@ export default function Home({mejoresVideojuegos}) {
 
                     <footer>
                         <AmazonItem data={mejoresVideojuegos[2]} />
+                    </footer>
+                </article>
+
+                <article className={`mt-8`}>
+                    <header>
+                        <h3 className={ArticleStyles.H3}><Link href="https://amzn.to/3Ztuz3u" title='Ver en Amazon Sony X90K' target='_blank'>Televisor Sony X90K</Link> La mejor relación calidad-precio en televisores LED FALD</h3>
+                        <Image className={ArticleStyles.Img_right} src='/tvs/sony_X90K.png' alt='Sony X90K' title='Sony X90K' width={512} height={300} />
+                    </header>
+
+                    <section>
+                        <p>Si buscas una experiencia de visualización excepcional, el televisor Sony X90K es una excelente opción. Este modelo es ideal tanto para jugar como para disfrutar de películas y series gracias a su sistema de retroiluminación Full Array, que ofrece un mayor control de la iluminación del panel, permitiendo encender o apagar zonas específicas de la imagen para mejorar el brillo y el nivel de negros.</p>
+                        <p>Además, su excelente procesamiento de imagen y la tecnología X-Motion Clarity mejoran la calidad de imagen en movimiento, eliminando los parpadeos y los tirones. También cuenta con un panel de 120 Hz reales, lo que lo hace perfecto para juegos y películas en HDR.</p>
+                        <p>El televisor Sony X90K es el mejor televisor de Sony para gaming, ya que cuenta con una serie de actualizaciones recientes que lo hacen compatible con HDMI 2.1. Esto significa que es el televisor más recomendado para las nuevas PS5 y Xbox Series de última generación, ya que es compatible con una amplia gama de funciones, como VRR (Tasa de refresco variable), ALLM (modo de latencia automática) y eARC.</p>
+                        <p>Gracias a su soporte para HDMI 2.1 con un ancho de banda de 48 Gbps, podrás disfrutar de juegos a 120 Hz en resolución 4K. Además, el sonido del televisor también es impresionante, ya que cuenta con dos tweeters de posicionamiento que propagan el sonido hacia delante (excepto en la versión de 55 pulgadas), lo que proporciona un audio más directo y de mayor volumen y definición.</p>
+                        <p>La caja de resonancia del televisor Sony X90K es más grande y cuenta con altavoces X-Balanced con forma de cuña para obtener una mejor definición que los altavoces ovalados que suelen montar en los televisores.</p>
+                        <p>En resumen, si estás buscando un televisor con una excelente relación calidad-precio que ofrezca una experiencia de visualización excepcional, el Sony X90K es una excelente opción. Con su sistema de retroiluminación Full Array, su excelente procesamiento de imagen y su compatibilidad con una amplia gama de funciones para gaming, es el televisor perfecto para los aficionados a los videojuegos y para los amantes del cine y las series.</p>
+                    </section>
+
+                    <footer>
+                        <AmazonItem data={mejoresVideojuegos[3]} />
                     </footer>
                 </article>
            

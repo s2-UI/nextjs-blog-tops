@@ -108,4 +108,17 @@ export const mejoresVideojuegos = [
     link: 'https://amzn.to/41JkIse',
     linkTitle: 'Ver en Amazon Samsung Neo QLED 50QN90B',
   },
+  {
+    id: uuidv4(),
+    img: '/tvs/sony_X90K.png',
+    imgAlt: 'Imágen del Sony BRAVIA XR - 65X90K/P',
+    imgTitle: 'Sony BRAVIA XR - 65X90K/P',
+    texts: [
+        'Sony BRAVIA XR - 65X90K/P televisor inteligente Google, Full Array de 65 pulgadas, 4K/P HDR 120Hz y HDMI 2.1 para PS5, Dolby Vision-Atmos, Pantalla Triluminos Pro',
+    ],
+    value: 5,
+    reviews: 40,
+    link: 'https://amzn.to/3Ztuz3u',
+    linkTitle: 'Ver en Amazon Sony BRAVIA XR - 65X90K/P',
+  },
 ]
