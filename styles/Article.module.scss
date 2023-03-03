@@ -62,3 +62,7 @@ $HeaderHeight: 40rem;
 .H2 {
     @apply after:clear-both border-b-4 border-orange-400 pb-2 font-bold;
 }
+
+.H3 {
+    @apply after:clear-both border-b-2 border-orange-400 pb-2 font-bold;
+}

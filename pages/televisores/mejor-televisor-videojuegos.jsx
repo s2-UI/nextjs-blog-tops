@@ -27,7 +27,7 @@ export default function Home({mejoresVideojuegos}) {
         <div className={ArticleStyles.Content}>
             <section className={ArticleStyles.Section}>
                 <h2 className={ArticleStyles.H2}>¿Qué características buscar en un televisor para juegos?</h2>
-                <Image className={ArticleStyles.Img_right} src='/archivo/pexels-jeshootscom-442576.jpg' alt='' title='' width={512} height={300} />
+                <Image className={ArticleStyles.Img_right} src='/archivo/pexels-jeshootscom-442576.jpg' alt='Dos personas buscando' title='¿Qué características buscar en un televisor para juegos?' width={512} height={300} />
                 <p>Hay varias características importantes que debe buscar al elegir un televisor para juegos. A continuación, se detallan algunas de las características más importantes:</p>
                 <h3>Resolución de pantalla</h3>
                 <p>La resolución de pantalla es una medida de la cantidad de píxeles que hay en una pantalla. Cuantos más píxeles haya, mayor será la claridad y nitidez de la imagen. Los televisores modernos tienen resoluciones que van desde 720p hasta 8K. Para videojuegos, se recomienda una resolución de al menos 1080p.</p>
@@ -41,7 +41,7 @@ export default function Home({mejoresVideojuegos}) {
 
             <section className={ArticleStyles.Section}>
                 <h2 className={ArticleStyles.H2}>Tipos de pantallas para juegos</h2>
-                <Image className={ArticleStyles.Img_right} src='/archivo/pexels-lalesh-aldarwish-194511.jpg' alt='' title='' width={512} height={300} />
+                <Image className={ArticleStyles.Img_right} src='/archivo/pexels-lalesh-aldarwish-194511.jpg' alt='mando xbox series s/x' title='Tipos de pantallas para juegos' width={512} height={300} />
                 <p>Existen dos tipos principales de pantallas para juegos: LED y OLED. A continuación, se detallan algunas de las características de cada tipo de pantalla:</p>
                 <h3>LED</h3>
                 <p>Las pantallas LED utilizan diodos emisores de luz para iluminar la pantalla. Estos televisores suelen ser más económicos y tienen una vida útil más larga que las pantallas OLED. Sin embargo, la calidad de imagen no es tan buena como la de las pantallas OLED.</p>
@@ -60,7 +60,7 @@ export default function Home({mejoresVideojuegos}) {
             </section>
 
             <section className={ArticleStyles.Section}>
-                <Image className={ArticleStyles.Img_center} src='/archivo/pexels-evg-kowalievska-1174746.jpg' alt='' title='' width={512} height={300} />
+                <Image className={ArticleStyles.Img_center} src='/archivo/pexels-evg-kowalievska-1174746.jpg' alt='Jugando con mando PS4' title='Tamaño de pantalla' width={512} height={300} />
             </section>
 
             <section className={ArticleStyles.Section}>
@@ -74,7 +74,7 @@ export default function Home({mejoresVideojuegos}) {
             </section>
 
             <section className={ArticleStyles.Section}>
-                <Image className={ArticleStyles.Img_center} src='/archivo/pexels-cottonbro-studio-4009592.jpg' alt='' title='' width={512} height={300} />
+                <Image className={ArticleStyles.Img_center} src='/archivo/pexels-cottonbro-studio-4009592.jpg' alt='personas jugando en el sofa' title='Comentarios y opiniones de otros usuarios' width={512} height={300} />
             </section>
 
             <section className={ArticleStyles.Section}>
@@ -90,13 +90,14 @@ export default function Home({mejoresVideojuegos}) {
             <section className={ArticleStyles.Section}>
                 <header>
                     <h2 className={ArticleStyles.H2}>Los mejores televisores para juegos en relación calidad-precio</h2>
-                    <Image className={ArticleStyles.Img_right} src='/archivo/pexels-lalesh-aldarwish-194511.jpg' alt='' title='' width={512} height={300} />
+                    {/* <Image className={ArticleStyles.Img_right} src='/archivo/pexels-lalesh-aldarwish-194511.jpg' alt='' title='' width={512} height={300} /> */}
                     <p>Si eres un amante de los videojuegos, seguramente te interesará encontrar un televisor que te permita disfrutar de tus juegos con la mejor calidad posible. En este artículo te hablaremos de los televisores más recomendados para jugar y que además se ajustan a diferentes presupuestos.</p>
                 </header>
-                
+
                 <article>
                     <header>
-                        <h3><Link href='https://amzn.to/3y4bHMA' title='Ver en Amazon la Samsung Q60B'>Samsung Q60B</Link>: La mejor opción para los gamers</h3>
+                        <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3y4bHMA' title='Ver en Amazon la Samsung Q60B'>Samsung Q60B</Link>: La mejor opción para los gamers</h3>
+                        <Image className={ArticleStyles.Img_right} src='/tvs/samsung_55Q64B.png' alt='Samsung Q60B' title='Samsung Q60B' width={512} height={300} />
                     </header>
 
                     <section>
@@ -118,7 +119,8 @@ export default function Home({mejoresVideojuegos}) {
 
                 <article className={`mt-8`}>
                     <header>
-                        <h3><Link href='https://amzn.to/3Ya7h1i' title='Ver en Amazon LG C2 OLED'>LG C2 OLED</Link> - La mejor opción de TV OLED para jugar a PS5 y Xbox Series X</h3>
+                        <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3Ya7h1i' title='Ver en Amazon LG C2 OLED'>LG C2 OLED</Link> - La mejor opción de TV OLED para jugar a PS5 y Xbox Series X</h3>
+                        <Image className={ArticleStyles.Img_right} src='/55-oled/lg_oled.png' alt='LG C2 OLED' title='LG C2 OLED' width={512} height={300} />
                     </header>
 
                     <section>
@@ -138,7 +140,7 @@ export default function Home({mejoresVideojuegos}) {
                     </footer>
                 </article>
 
-                <article className={`mt-8`}>
+                {/* <article className={`mt-8`}>
                     <header>
                         <h3><Link href="https://amzn.to/41JkIse" title='Ver en Amazon Samsung QN90B' target='_blank'>Samsung QN90B</Link> - El televisor gaming más completo de 2022</h3>
                     </header>
@@ -154,7 +156,7 @@ export default function Home({mejoresVideojuegos}) {
                     <footer>
                         <AmazonItem data={mejoresVideojuegos[2]} />
                     </footer>
-                </article>
+                </article> */}
            
 
                 
