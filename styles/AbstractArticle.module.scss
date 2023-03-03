@@ -5,15 +5,23 @@
         @apply flex flex-col bg-slate-50 p-4 border border-slate-300 h-full;
         
         &:hover {
-            @apply bg-slate-300;
+            @apply bg-slate-200 transition-all;
 
             #{$parent}_h2 {
                 @apply text-orange-600;
             }
+
+            #{$parent}_img {
+                @apply scale-150 transition-all duration-300;
+            }
         }
     }
 
+    &_wrapper_img {
+        @apply mb-4 h-56 flex items-center justify-center overflow-hidden;
+    }
+
     &_img {
-        @apply mb-4;
+        @apply scale-125;
     }
 } 

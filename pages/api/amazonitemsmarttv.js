@@ -216,3 +216,62 @@ export const mejoresMarcas = [
       linkTitle: 'Ver en Amazon el Panasonic TX-65JX800',
   },
 ]
+
+export const compraSmart = [
+  {
+      id: uuidv4(),
+      img: '/tvs/philips_50PUS8517.jpg',
+      imgAlt: 'Imágen de la Philips 50PUS8517/12',
+      imgTitle: 'Philips 50PUS8517/12',
+      texts: [
+          '<strong>Philips 50PUS8517/12</strong>',
+          'TV LED Android TV 4K UHD 50" con Ambilight en 3 Lados, Principales formatos HDR compatibles, P5 Picture Engine, Compatible con Google Assistance y Alexa, 2022.',
+      ],
+      value: 5,
+      reviews: 1.609,
+      link: 'https://amzn.to/41GTO43',
+      linkTitle: 'Ver en Amazon el Philips 50PUS8517/12',
+  },
+  {
+      id: uuidv4(),
+      img: '/tvs/TCL_55P639.jpg',
+      imgAlt: 'Imágen de la TCL 55P639',
+      imgTitle: 'TCL 55P639',
+      texts: [
+        '<strong>TCL 55P639</strong>',
+        'Smart TV 55" con 4K HDR, Ultra HD, Google TV, Game Master, Dolby Audio, Google Assistant Incorporado & Compatible con Alexa, Metalizado Oscuro.',
+      ],
+      value: 4,
+      reviews: 2.086,
+      link: 'https://amzn.to/3kLJTtq',
+      linkTitle: 'Ver en Amazon el TCL 55P639',
+  },
+  {
+      id: uuidv4(),
+      img: '/tvs/Samsung_55TU8005.jpg',
+      imgAlt: 'Imágen de la Samsung UHD 2020 55TU8005',
+      imgTitle: 'Samsung UHD 2020 55TU8005',
+      texts: [
+        '<strong>Samsung UHD 2020 55TU8005</strong>',
+        'Smart TV de 55" 4K, HDR 10+, Crystal Display, Procesador 4K, PurColor, Sonido Inteligente, One Remote Control y Asistentes de Voz Integrados, con Alexa integrada.',
+      ],
+      value: 5,
+      reviews: 2.502,
+      link: 'https://amzn.to/3kLqAAu',
+      linkTitle: 'Ver en Amazon el Samsung UHD 2020 55TU8005',
+  },
+  {
+      id: uuidv4(),
+      img: '/tvs/Philips_50PUS8057.jpg',
+      imgAlt: 'Imágen de la Philips 50PUS8057/12',
+      imgTitle: 'Philips 50PUS8057/12',
+      texts: [
+        '<strong>Philips 50PUS8057/12</strong>',
+        'Smart TV LED 4K UHD AndroidTV de 50", Alto Rango Dinámico (HDR), Dolby Atmos, Imagen y Sonido Cinemáticos, Diseño Delgado, 60 Hz, Ambilight de 3 Lados, Asistente de Google, 2022.',
+      ],
+      value: 5,
+      reviews: 1.514,
+      link: 'https://amzn.to/3SONvHF',
+      linkTitle: 'Ver en Amazon el Philips 50PUS8057/12',
+  },
+]
