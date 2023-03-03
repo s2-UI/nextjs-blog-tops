@@ -14,7 +14,7 @@ export const mejoresMarcas = [
             imgAlt: 'Imágen de la Samsung QN95B Neo QLED',
             imgTitle: 'Samsung QN95B Neo QLED',
             texts: [
-                'Uno de los mejores televisores de Samsung actualmente es el <strong>Samsung QN95B Neo QLED</strong>. Este modelo cuenta con una <strong>pantalla de alta calidad y resolución</strong>, una <strong>excelente calidad de imagen</strong> y un <strong>sonido envolvente</strong>. También cuenta con características como la tecnología de <strong>atenuación local</strong>, que mejora el contraste y el brillo en las áreas específicas de la pantalla, y una <strong>tasa de refresco de 120 Hz</strong> para una imagen más suave y nítida. Además, tiene una gran variedad de <strong>funciones inteligentes</strong> y una interfaz fácil de usar, lo que lo hace una excelente opción para aquellos que buscan una experiencia de visualización de alta calidad.',
+                'Samsung TV Neo QLED4K 2022 65QN95B-Smart TV de65" con Resolución 4K, Quantum Matrix Technology, Procesador Neural 4K con Inteligencia Artificial, Quantum HDR2000, 70W Dolby Atmos y Alexa Integrada.',
             ],
             value: 4,
             reviews: 188,
@@ -27,7 +27,7 @@ export const mejoresMarcas = [
             imgAlt: 'Imágen de la Samsung Crystal UHD 2022 55AU7095',
             imgTitle: 'Samsung Crystal UHD 2022 55AU7095',
             texts: [
-                'Si estás buscando una <strong>buena relación calidad-precio</strong> en televisores Samsung, una buena opción puede ser el <strong>Samsung Crystal UHD 2022 55AU7095</strong>. Este modelo cuenta con una <strong>pantalla de alta resolución y calidad de imagen</strong>, con tecnología de <strong>cristal UHD</strong> que mejora la nitidez y la claridad de la imagen. También cuenta con una buena cantidad de <strong>funciones inteligentes</strong> y una interfaz fácil de usar. Además, su precio es bastante asequible en comparación con otros modelos de gama alta de Samsung, lo que lo hace una excelente opción para aquellos que buscan un televisor de buena calidad sin gastar demasiado dinero.',
+                'Samsung Crystal UHD 2022 55AU7095 - Smart TV de 55", 4K UHD, HDR 10, Procesador Crystal 4K, Q-Symphony, Sonido Inteligente y Compatible con Alexa.',
             ],
             value: 5,
             reviews: 3.299,
@@ -50,7 +50,7 @@ export const mejoresMarcas = [
             imgAlt: 'Imágen de la LG OLED65G26LA',
             imgTitle: 'LG OLED65G26LA',
             texts: [
-                'El LG OLED65G26LA es un televisor <strong>4K OLED evo Gallery Edition</strong> con un procesador inteligente de máxima potencia <strong>4K a9 Gen 5 con IA</strong>, compatible con el <strong>100% de formatos HDR, HDR Dolby Vision, Dolby Atmos</strong> y <strong>Smart TV webOS22</strong>. Con su diseño elegante y delgado, es ideal para <strong>colgar en la pared</strong>. Es considerado el mejor televisor para <strong>gaming</strong> gracias a su rapidez y calidad de imagen. Además, cuenta con un sistema de sonido <strong>AI Sound Dolby Atmos</strong> y es capaz de <strong>filtrar la luz azul dañina para tus ojos</strong>.',
+                'LG Televisor OLED65G26LA - Smart TV webOS22 65 pulgadas (164 cm) 4K OLED evo Gallery Edition, Procesador Inteligente 4K a9 Gen 5 IA, compatible formatos HDR, HDR Dolby Vision, Dolby Atmos, TV Gaming.',
             ],
             value: 5,
             reviews: 161,
@@ -63,7 +63,7 @@ export const mejoresMarcas = [
             imgAlt: 'Imágen de la LG OLED55A26LA',
             imgTitle: 'LG OLED55A26LA',
             texts: [
-                'El televisor LG <strong>OLED55A26LA</strong> es un modelo de gama alta con una pantalla OLED de 55 pulgadas y resolución <strong>4K</strong>. Cuenta con el procesador inteligente de gran potencia <strong>4K a7 Gen 5 con IA</strong>, lo que garantiza una excelente calidad de imagen y una experiencia de visualización más envolvente. Además, es compatible con el <strong>100% de formatos HDR, HDR Dolby Vision y Dolby Atmos</strong>, lo que permite disfrutar de una experiencia de audio envolvente y realista. También es ideal para <strong>gaming</strong>, ya que ofrece una tasa de refresco de <strong>120Hz</strong> y baja latencia de entrada. El diseño del televisor es elegante y minimalista, con un grosor muy delgado y bordes casi inexistentes.',
+                'LG Televisor OLED55A26LA - Smart TV webOS22 55 pulgadas (139 cm) 4K OLED, Procesador Inteligente Gran Potencia 4K a7 Gen 5 IA, compatible formatos HDR, HDR Dolby Vision y Dolby Atmos, TV para Gaming',
             ],
             value: 5,
             reviews: 161,
@@ -86,7 +86,7 @@ export const mejoresMarcas = [
             imgAlt: 'Imágen de la Sony QD-OLED 55A95K/P',
             imgTitle: 'Sony QD-OLED 55A95K/P',
             texts: [
-                'El Sony <strong>QD-OLED 55A95K/P</strong> es un televisor OLED de 55 pulgadas con una resolución <strong>4K UHD</strong>, una tasa de refresco de <strong>120 Hz</strong> y una relación de aspecto de <strong>16:9</strong>. Tiene un panel <strong>QD-OLED</strong>, que combina la tecnología OLED con los puntos cuánticos para producir imágenes más brillantes y saturadas. También cuenta con un ángulo de visión amplio y un tipo de atenuación de retroiluminación. El televisor viene con soporte frontal de estilo y tiene unas dimensiones de <strong>11.81 x 11.81 pulgadas</strong> (300 x 300 mm) con el soporte incluido.',
+                'Sony QD-OLED Master Series - 55A95K/P BRAVIA XR televisor inteligente Google, 4K/P Ultra-HD, para PS5, Bravia CAM incluída, Dolby Vision-Atmos, Pantalla Triluminos MAX.',
             ],
             value: 5,
             reviews: 43,
@@ -109,7 +109,7 @@ export const mejoresMarcas = [
             imgAlt: 'Imágen de la Philips 65OLED706/12',
             imgTitle: 'Philips 65OLED706/12',
             texts: [
-                'La <strong>Philips 65OLED706/12</strong> es una <strong>televisión</strong> de alta gama con pantalla <strong>OLED</strong> de 65 pulgadas y resolución <strong>4K</strong>. Ofrece una calidad de imagen excelente gracias a su tecnología de procesamiento de imagen <strong>P5</strong>, compatible con <strong>HDR10+</strong>, <strong>Dolby Vision</strong> y <strong>HLG</strong>. Tiene sistema operativo <strong>Android TV</strong> con acceso a una gran variedad de aplicaciones y conectividad <strong>Wi-Fi</strong> y <strong>Bluetooth</strong>. También cuenta con <strong>altavoces</strong> integrados con tecnología <strong>Dolby Atmos</strong> y <strong>ambilight</strong> de 3 lados para una experiencia de visualización inmersiva.',
+                'Philips 65OLED706/12 4K UHD OLED Android TV, 65 Pulgadas 4K Smart TV con Ambilight, Imagen Vibrante HDR, Dolby Vision cinematográfico y Sonido Atmos, Compatible con Google Assistant y Alexa, 2021.',
             ],
             value: 5,
             reviews: 132,
@@ -132,7 +132,7 @@ export const mejoresMarcas = [
             imgAlt: 'Imágen de la Panasonic TX-65JX800',
             imgTitle: 'Panasonic TX-65JX800',
             texts: [
-                'La <strong>Philips 65OLED706/12</strong> es una <strong>televisión</strong> de alta gama con pantalla <strong>OLED</strong> de 65 pulgadas y resolución <strong>4K</strong>. Ofrece una calidad de imagen excelente gracias a su tecnología de procesamiento de imagen <strong>P5</strong>, compatible con <strong>HDR10+</strong>, <strong>Dolby Vision</strong> y <strong>HLG</strong>. Tiene sistema operativo <strong>Android TV</strong> con acceso a una gran variedad de aplicaciones y conectividad <strong>Wi-Fi</strong> y <strong>Bluetooth</strong>. También cuenta con <strong>altavoces</strong> integrados con tecnología <strong>Dolby Atmos</strong> y <strong>ambilight</strong> de 3 lados para una experiencia de visualización inmersiva.',
+                'Panasonic TX-65JX800 Android TV LED 4K HDR 65", Dolby Atmos, HCX, Dolby Vision, Compatible con Amazon Alex y Asistente de Google, HDMI, USB, WiFi, Negro',
             ],
             value: 4,
             reviews: 68,
