@@ -44,57 +44,72 @@ function Home({mejoresOled}) {
               <h2 className={ArticleStyles.H2}>Comparativa de los mejores televisores OLED de 55 pulgadas:</h2>
             </header>
 
-            <section> 
-              <div className={`mt-4 mb-4`}>
-                <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3ZzuISI' title='Ver en Amazon LG OLED55C24LA' target='_blank'>LG OLED55C24LA</Link></h3>
+            <div> 
+              <section className={`mt-4 mb-4`}>
+                <header>
+                  <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3ZzuISI' title='Ver en Amazon LG OLED55C24LA' target='_blank'>LG OLED55C24LA</Link></h3>
+                </header>                
                 <p>La <Link href='https://amzn.to/3ZzuISI' title='Ver en Amazon LG OLED55C24LA' target='_blank'>LG OLED55C24LA</Link> es una televisión OLED de 55 pulgadas con una resolución de 4K y un sistema de sonido de 20W con Dolby Atmos. Ofrece un contraste impresionante gracias a su capacidad de mostrar el color negro verdadero, lo que la hace ideal para ver películas y series. También cuenta con una amplia gama de funciones inteligentes, como el control por voz y la conectividad Wi-Fi. Además, su procesador α7 Gen4 mejora la calidad de la imagen y el sonido, mientras que el sistema operativo webOS 6.0 permite acceder a diversas aplicaciones y servicios en línea.</p>
-                <AmazonItem data={mejoresOled[0]} />
-              </div>
+                <footer>
+                  <AmazonItem data={mejoresOled[0]} />
+                </footer>
+              </section>
 
-              <div className={`mt-4 mb-4`}>
-                <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3ZgJJcs' title='Ver en Amazon Sony BRAVIA XR 55A75K' target='_blank'>Sony BRAVIA XR 55A75K</Link></h3>
+              <section className={`mt-4 mb-4`}>
+                <header>
+                  <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3ZgJJcs' title='Ver en Amazon Sony BRAVIA XR 55A75K' target='_blank'>Sony BRAVIA XR 55A75K</Link></h3>
+                </header>
                 <p>La <Link href='https://amzn.to/3ZgJJcs' title='Ver en Amazon Sony BRAVIA XR 55A75K' target='_blank'>Sony BRAVIA XR 55A75K</Link> es una televisión de 55 pulgadas con una resolución de 4K que ofrece una experiencia de visualización inmersiva y conectada gracias a su tecnología XR que mejora la calidad de imagen y sonido. Además, cuenta con un sistema de sonido Acoustic Multi-Audio con altavoces adicionales en la parte posterior para una mayor claridad del sonido.</p>
                 <p>El sistema operativo Android TV permite acceder a una amplia gama de aplicaciones y servicios en línea, y el control por voz a través del asistente virtual integrado (Google Assistant, Amazon Alexa) facilita la navegación. La conexión Wi-Fi y Bluetooth permite una fácil conectividad, mientras que los cuatro puertos HDMI y dos puertos USB proporcionan opciones de conectividad adicionales.</p>
-                <AmazonItem data={mejoresOled[1]} />
-              </div>
+                <footer>
+                  <AmazonItem data={mejoresOled[1]} />
+                </footer>
+              </section>
 
-              <div className={`mt-4 mb-4`}>
-                <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3ZyM9CZ' title='Ver en Amazon Samsung OLED 55S95' target='_blank'>Samsung OLED 55S95</Link></h3>
+              <section className={`mt-4 mb-4`}>
+                <header>
+                  <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3ZyM9CZ' title='Ver en Amazon Samsung OLED 55S95' target='_blank'>Samsung OLED 55S95</Link></h3>
+                </header>
                 <p>El <Link href='https://amzn.to/3ZyM9CZ' title='Ver en Amazon Samsung OLED 55S95' target='_blank'>Samsung OLED 55S95</Link> es un televisor inteligente de alta calidad con una pantalla OLED de 4K y tecnología de punto cuántico. El procesador avanzado OLED 4K convierte una imagen ordinaria en una imagen extraordinaria, naturalmente brillante y colorida.</p>
                 <p>El diseño delgado del televisor con tecnología LaserSlim lo hace perfecto para cualquier hogar o negocio. Además, el televisor tiene Dolby Atmos® para una experiencia de sonido envolvente.</p>
                 <p>En resumen <Link href='https://amzn.to/3ZyM9CZ' title='Ver en Amazon Samsung OLED 55S95' target='_blank'>Samsung OLED 55S95</Link> es un televisor OLED increíble con una calidad de imagen excepcional. La nueva tecnología OLED de punto cuántico ofrece una calidad de imagen increíble, con colores mucho más brillantes que los paneles OLED blancos tradicionales de LG y Sony.</p>
-                <AmazonItem data={mejoresOled[2]} />
-              </div>
+                <footer>
+                  <AmazonItem data={mejoresOled[2]} />
+                </footer>
+              </section>
 
-              <div className={`mt-4 mb-4`}>
-                <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3Y8R3Fz' title='Ver en Amazon Philips 55OLED807/12' target='_blank'>Philips 55OLED807/12</Link></h3>
+              <section className={`mt-4 mb-4`}>
+                <header>
+                  <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3Y8R3Fz' title='Ver en Amazon Philips 55OLED807/12' target='_blank'>Philips 55OLED807/12</Link></h3>
+                </header>
                 <p>La <Link href='https://amzn.to/3Y8R3Fz' title='Ver en Amazon Philips 55OLED807/12' target='_blank'>Philips 55OLED807/12</Link> es una televisión OLED de 55 pulgadas con una resolución de 4K que ofrece una calidad de imagen excepcional gracias a su capacidad para mostrar el color negro verdadero y un amplio ángulo de visión. Además, cuenta con un sistema de sonido de 50W con tecnología Dolby Atmos que proporciona una experiencia de sonido envolvente.</p>
                 <p>El sistema operativo Android TV permite acceder a una amplia gama de aplicaciones y servicios en línea, mientras que el control por voz a través del asistente virtual integrado (Google Assistant) facilita la navegación. La conectividad Wi-Fi y Bluetooth permite una fácil conexión, mientras que los cuatro puertos HDMI y dos puertos USB proporcionan opciones de conectividad adicionales.</p>
-                <AmazonItem data={mejoresOled[3]} />
-              </div>
+                <footer>
+                  <AmazonItem data={mejoresOled[3]} />
+                </footer>
+              </section>
 
-              <div className={`mt-4 mb-4`}>
-                <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3ZfD1U1' title='Ver en Amazon Panasonic TX-55LZ800E' target='_blank'>Panasonic TX-55LZ800E</Link></h3>
+              <section className={`mt-4 mb-4`}>
+                <header>
+                  <h3 className={ArticleStyles.H3}><Link href='https://amzn.to/3ZfD1U1' title='Ver en Amazon Panasonic TX-55LZ800E' target='_blank'>Panasonic TX-55LZ800E</Link></h3>
+                </header>
                 <p>La <Link href='https://amzn.to/3ZfD1U1' title='Ver en Amazon Panasonic TX-55LZ800E' target='_blank'>Panasonic TX-55LZ800E</Link> es una televisión de 55 pulgadas con una resolución de 4K que ofrece una calidad de imagen excepcional gracias a su panel OLED y el procesador de imagen HCX PRO. Además, cuenta con un sistema de sonido de 40W con tecnología Dolby Atmos que proporciona una experiencia de sonido envolvente.</p>
                 <p>El sistema operativo My Home Screen 4.0 permite acceder a una amplia gama de aplicaciones y servicios en línea, mientras que el control por voz a través del asistente virtual integrado (Amazon Alexa, Google Assistant) facilita la navegación. La conectividad Wi-Fi y Bluetooth permite una fácil conexión, mientras que los cuatro puertos HDMI y tres puertos USB proporcionan opciones de conectividad adicionales.</p>
-                <AmazonItem data={mejoresOled[4]} />
-              </div>
-            </section>
+                <footer>
+                  <AmazonItem data={mejoresOled[4]} />
+                </footer>
+              </section>
+            </div>
           </article>
 
-          <article className={`mb-12`}>
-            <header>
-              <h2 className={ArticleStyles.H2}>Conclusión</h2>
-            </header>
-
-            <section> 
-              <p>En resumen, si estás buscando una televisión OLED de 55 pulgadas, tienes una amplia variedad de opciones de alta calidad. Desde la LG OLED55C24LA hasta la Philips 55OLED807/12, estas televisiones ofrecen una calidad de imagen impresionante, funciones inteligentes avanzadas y un rendimiento excepcional en juegos y cine en casa.</p>
-            </section>
-          </article>
+          <div className={`mb-12`}>
+            <h2 className={ArticleStyles.H2}>Conclusión</h2>
+            <p>En resumen, si estás buscando una televisión OLED de 55 pulgadas, tienes una amplia variedad de opciones de alta calidad. Desde la LG OLED55C24LA hasta la Philips 55OLED807/12, estas televisiones ofrecen una calidad de imagen impresionante, funciones inteligentes avanzadas y un rendimiento excepcional en juegos y cine en casa.</p>
+          </div>
         </div>
 
         <footer>
-            <h2>FAQ</h2>
+            <h2>Preguntas frecuentes (FAQ)</h2>
 
             <h3>¿Qué es una televisión OLED?</h3>
             <p>Una televisión OLED es una pantalla plana que utiliza tecnología orgánica de emisión de luz para crear imágenes con colores y contraste excepcionales.</p>
