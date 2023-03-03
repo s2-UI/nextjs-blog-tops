@@ -10,7 +10,7 @@ export default function PoliticaDeCookies() {
     description="En esta web recopilo y utilizo la información según indico en mi política de privacidad. Una de las formas en las que recopiló información es a través del uso"
     >
       <Head>
-        <meta name='robots' content='noindex' />
+        <meta name='robots' content='nofollow, noindex' />
       </Head>
 
       <div className='Page FormatingText'>

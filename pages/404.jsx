@@ -7,7 +7,7 @@ function fourtyOfourty() {
   return (
     <Layout>
         <Head>
-          <meta name='robots' content='noindex' />
+          <meta name='robots' content='nofollow, noindex' />
         </Head>
 
         <div className={fourtyOfourtyStyles.Root}>

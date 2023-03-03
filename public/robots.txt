@@ -1,4 +1,6 @@
 User-Agent: *
 Allow: /
+Disallow: /aviso-legal
+Disallow: /politica-de-cookies
 
 Sitemap: sitemap.xml
