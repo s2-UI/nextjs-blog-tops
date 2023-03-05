@@ -1,6 +1,5 @@
 import AbstractArticle from '@/components/AbstractArticle';
 import Layout from '@/Layouts/Layout';
-import Head from 'next/head';
 
 import { abstractArticles } from '@/pages/api/abstractarticles';
 

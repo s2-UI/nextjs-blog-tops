@@ -1,10 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
 
+import Navbar from "@/components/Navbar";
+
 import layoutStyles from "@/styles/Layout.module.scss";
 
-function Layout({ children, title, description, keywords="televisores 2023, comparativa televisores, mejores televisores, guía de compra de televisores, marcas de televisores, modelos de televisores, resolución de televisores, tamaño de televisores, pantallas OLED, pantallas QLED, HDR en televisores, Smart TV, precios de televisores, opiniones de televisores, análisis de televisores", canonical }) {
-  return (
+function Layout({ children, title, description, keywords="televisores 2023, comparativa televisores, mejores televisores, guía de compra de televisores, marcas de televisores, modelos de televisores, resolución de televisores, tamaño de televisores, pantallas OLED, pantallas QLED, HDR en televisores, Smart TV, precios de televisores, opiniones de televisores, análisis de televisores", canonical }) {  
+    return (
     <>
       <Head>
         <title>{title}</title>
@@ -25,7 +27,9 @@ function Layout({ children, title, description, keywords="televisores 2023, comp
                     {/* <Image className={styles.Logo} src="/logo.png" alt="Logo principal de pickiwise" width={512} height={512} /> */}
                 </div>
                 <div className={layoutStyles.Header_right}>
-                    <nav className={layoutStyles.Nav}>
+                    <Navbar />
+
+                    {/* <nav className={layoutStyles.Nav}>
                         <ul className={layoutStyles.Nav_ul}>
                             <li className={`${layoutStyles.Nav_li} gb-group`}>
                                 Televisores
@@ -53,7 +57,7 @@ function Layout({ children, title, description, keywords="televisores 2023, comp
                                 </ul>
                             </li>
                         </ul>
-                    </nav>
+                    </nav> */}
                 </div>
             </div>
         </header>

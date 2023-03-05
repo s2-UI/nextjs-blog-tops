@@ -3,6 +3,16 @@ import { v4 as uuidv4 } from 'uuid';
 export const abstractArticles = [
   {
     id: uuidv4(),
+    link: '/sonido/sony-ht-a3000', 
+    linkTitle: 'Ver guía completa de la barra de Sonido Sony HT-A3000', 
+    img: '/sonido/sony/sony_ht-a3000-4.jpg', 
+    imgTitle: 'Guía completa para la barra de Sonido Sony HT-A3000', 
+    imgAlt: 'Imágen barra de Sonido Sony HT-A3000', 
+    title: 'Barra de Sonido Sony HT-A3000: Una experiencia de sonido de cine en casa', 
+    description: 'Con la Barra de Sonido Sony HT-A3000, disfruta de una calidad de sonido excepcional en tu cine en casa. Descubre cómo esta barra de sonido puede mejorar tu experiencia de cine en casa.',
+  },
+  {
+    id: uuidv4(),
     link: '/televisores/guia-comprar-smart-tv', 
     linkTitle: 'Ver guía completa para comprar la mejor Smart TV en 2023', 
     img: '/archivo/fondo_comprar_smart.jpg', 
