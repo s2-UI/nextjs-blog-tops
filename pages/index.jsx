@@ -19,7 +19,7 @@ export default function Home({ abstractArticles }) {
             Análisis y sugerencias de Smart TVs, barras de sonido y más en
           </p> */}
           <h1 className={indexStyles.Header_h1}>Análisis y sugerencias de Smart TVs, barras de sonido y mucho más...</h1>
-          <h1 className={indexStyles.Header_p}>Si estás buscando crear la experiencia de cine en casa perfecta, estás en el lugar correcto. En <Link href="/" title='ReviewsHub.es'>ReviewsHub.es</Link>, encontrarás análisis y sugerencias de los mejores <strong>Smart TVs</strong>, <strong>barras de sonido</strong> y otros dispositivos relacionados con el entretenimiento en casa.</h1>
+          <p className={indexStyles.Header_p}>Si estás buscando crear la experiencia de cine en casa perfecta, estás en el lugar correcto. En <Link href="/" title='ReviewsHub.es'>ReviewsHub.es</Link>, encontrarás análisis y sugerencias de los mejores <strong>Smart TVs</strong>, <strong>barras de sonido</strong> y otros dispositivos relacionados con el entretenimiento en casa.</p>
         </div>
       </header>
 
