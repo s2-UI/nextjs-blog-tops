@@ -28,36 +28,6 @@ function Layout({ children, title, description, keywords="televisores 2023, comp
                 </div>
                 <div className={layoutStyles.Header_right}>
                     <Navbar />
-
-                    {/* <nav className={layoutStyles.Nav}>
-                        <ul className={layoutStyles.Nav_ul}>
-                            <li className={`${layoutStyles.Nav_li} gb-group`}>
-                                Televisores
-                                <ul className={`${layoutStyles.Subnav} gb-subgroup`}>
-                                    <li className={layoutStyles.Subnav_li}>
-                                        <Link className={layoutStyles.Subnav_a} href="/televisores/mejor-televisor-videojuegos" title="Cómo elegir el mejor televisor para videojuegos">
-                                            Mejor televisor para videojuegos
-                                        </Link>
-                                    </li>
-                                    <li className={layoutStyles.Subnav_li}>
-                                        <Link className={layoutStyles.Subnav_a} href="/televisores/cinco-mejores-oled-55" title="Las 5 mejores TV OLED de 55 pulgadas">
-                                            Las 5 mejores TV OLED de 55&quot;
-                                        </Link>
-                                    </li>
-                                    <li className={layoutStyles.Subnav_li}>
-                                        <Link className={layoutStyles.Subnav_a} href="/televisores/mejores-televisores-2023" title="Las 10 mejores smart tv del 2023">
-                                            Mejores Smart TV 2023
-                                        </Link>
-                                    </li>
-                                    <li className={layoutStyles.Subnav_li}>
-                                        <Link className={layoutStyles.Subnav_a} href="/televisores/las-cinco-mejores-marcas" title="Las 5 mejores marcas de televisores del mercado">
-                                            Mejores Marcas
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav> */}
                 </div>
             </div>
         </header>

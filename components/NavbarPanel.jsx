@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import { FaTimes, FaChevronDown } from "react-icons/fa";
 import navbarPanel from '@/styles/NavbarPanel.module.scss'
