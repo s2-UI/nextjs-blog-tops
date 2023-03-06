@@ -32,6 +32,11 @@ function NavbarPanel({ isOpen, setTogglePanel }) {
             </p>
             <ul className={navbarPanel.Nav_ul}>
                 <li className={navbarPanel.Nav_li}>
+                    <Link className={navbarPanel.Nav_a} href="/televisores/smartv-menos-500" title="Las mejores TV por menos de 500 euros">
+                        Las mejores TV por menos de 500 euros
+                    </Link>
+                </li>
+                <li className={navbarPanel.Nav_li}>
                     <Link className={navbarPanel.Nav_a} href="/televisores/mejor-televisor-videojuegos" title="Cómo elegir el mejor televisor para videojuegos">
                         Mejor televisor para videojuegos
                     </Link>

@@ -3,6 +3,16 @@ import { v4 as uuidv4 } from 'uuid';
 export const abstractArticles = [
   {
     id: uuidv4(),
+    link: '/televisores/smartv-menos-500', 
+    linkTitle: 'Ver las mejores TV por menos de 500 euros', 
+    img: '/archivo/fondo_smart.jpg', 
+    imgTitle: 'Las mejores TV por menos de 500 euros', 
+    imgAlt: 'Imágen Las mejores TV por menos de 500 euros', 
+    title: 'Las mejores TV por menos de 500 euros - Guía de compra actualizada.', 
+    description: 'Descubre las mejores opciones de televisores por menos de 500 euros en el mercado. Conoce las características clave a buscar y elige el televisor perfecto para ti. Guía de compra actualizada y detallada.',
+  },
+  {
+    id: uuidv4(),
     link: '/sonido/sony-ht-a3000', 
     linkTitle: 'Ver guía completa de la barra de Sonido Sony HT-A3000', 
     img: '/sonido/sony/sony_ht-a3000-4.jpg', 
