@@ -41,17 +41,17 @@ function Layout({ children, title, description, keywords="televisores 2023, comp
         <footer className={layoutStyles.Footer}>
             <div className={layoutStyles.Footer_container}>
                 <div className={layoutStyles.Footer_brand}>
-                    <p>En <Link href="/" title="ReviewsHub.es">ReviewsHub.es</Link> podrás encontrar las últimas novedades en tecnología, así como ofertas y análisis de artículos tecnológicos destacados, como televisores inteligentes, gadgets de última generación, wearables, ordenadores portátiles, tablets y mucho más. Mantente actualizado con las mejores noticias y reseñas en <Link href="/" title="ReviewsHub.es">ReviewsHub.es</Link>.</p>
+                    <p>En <Link href="/" title="ReviewsHub">ReviewsHub</Link> podrás encontrar los análisis más detallados y comparativas actualizadas de los últimos modelos de televisores inteligentes, barras de sonido y otros dispositivos de entretenimiento del hogar. Además, te mantendremos al día con las últimas novedades y tendencias en tecnología de entretenimiento para que puedas tomar la mejor decisión de compra. ¡Visítanos y descubre todo lo que necesitas saber antes de adquirir tu próximo dispositivo de entretenimiento en el hogar en <Link href="/" title="ReviewsHub">ReviewsHub</Link>!</p>
                 </div>
                 <div className={layoutStyles.Footer_afiliado}>
                     <p>En calidad de Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables en Amazon y otras tiendas online.</p>
                 </div>
                 <div className={layoutStyles.Footer_about}>
-                    <h2>Sobre ReviewsHub.es</h2>
+                    <h2>Sobre ReviewsHub</h2>
 
                     <ul>
                         <li><Link href="/aviso-legal" title="Aviso legal">Aviso legal</Link></li>
-                        <li><Link href="/politica-de-cookies" title="Cookies">Cookies</Link></li>
+                        {/* <li><Link href="/politica-de-cookies" title="Cookies">Cookies</Link></li> */}
                         {/* <li><Link href="/" title="Privacidad">Privacidad</Link></li>
                         <li><Link href="/" title="Contacto">Contacto</Link></li> */}
                     </ul>

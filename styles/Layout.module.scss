@@ -1,50 +1,62 @@
 .Header {
-    @apply sticky top-0 z-10 w-full bg-slate-900 border-b border-blue-300 shadow-md;
+  @apply sticky top-0 z-10 w-full border-b-2 border-blue-500 bg-blue-50 shadow-md;
 
-    &_container {
-        @apply container mx-auto flex justify-between items-center p-4;
-    }
+  &_container {
+    @apply container mx-auto flex items-center justify-between p-4;
+  }
 
-    &_left {
-        @apply flex justify-start items-center;
-    }
+  &_left {
+    @apply flex items-center justify-start;
+  }
 
-    &_right {
-        @apply flex justify-end items-center;
-    }
+  &_right {
+    @apply flex items-center justify-end;
+  }
+}
+
+.Button {
+    @apply text-4xl text-blue-500;
+    @apply hover:text-blue-300;
 }
 
 .Logo {
-    @apply w-48;
-    @apply md:w-72;
+  @apply w-48;
+  @apply md:w-72;
 }
 
 .Content {
-    
 }
 
 .Footer {
-    @apply w-full border-b bg-slate-900 border-t border-slate-700 text-slate-300 p-4;
+  @apply w-full border-b border-t border-stone-700 bg-stone-900 p-4;
 
-    &_container {
-        @apply container mx-auto flex flex-col justify-between;
-        @apply md:flex-row md:gap-8;
-    }
+  p {
+    @apply text-stone-400;
+  }
 
-    &_brand  {
-        @apply md:basis-80;
-    }   
+  h2 {
+    @apply text-stone-300;
+  }
 
-    &_afiliado {
-        @apply md:basis-80;
-    }
+  &_container {
+    @apply container mx-auto flex flex-col justify-between;
+    @apply md:flex-row md:gap-8;
+  }
 
-    &_derechos {
-        @apply text-sm border-t border-slate-800 mt-4 pt-4;
-    }
+  &_brand {
+    @apply md:basis-80;
+  }
 
-    a {
-        @apply text-slate-50 font-semibold;
-        @apply hover:text-orange-600;
-    }
+  &_afiliado {
+    @apply md:basis-80;
+  }
+
+  &_derechos {
+    @apply mt-4 border-t border-stone-800 pt-4 text-sm;
+  }
+
+  a {
+    @apply font-semibold text-stone-50;
+    @apply hover:text-blue-300;
+  }
 }

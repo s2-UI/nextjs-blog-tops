@@ -1,15 +1,15 @@
 .Nav {
   $parent: &;
 
-  @apply fixed right-0 bottom-0 top-0 left-full bg-slate-800 p-8 pt-20 transition-all;
+  @apply fixed right-0 bottom-0 top-0 left-full bg-stone-800 p-8 pt-20 transition-all;
 
   &_close {
-    @apply absolute top-4 left-4 text-4xl text-slate-50;
+    @apply absolute top-4 left-4 text-4xl text-blue-50;
     @apply hover:text-red-400;
   }
 
   &_title {
-    @apply flex cursor-pointer items-center justify-between border-b border-orange-400 pb-2 font-bold uppercase text-slate-50;
+    @apply flex cursor-pointer items-center justify-between border-b border-blue-400 pb-2 font-bold uppercase text-blue-50;
   }
 
   &_ul {
@@ -20,7 +20,7 @@
   }
 
   &_a {
-    @apply block w-full font-semibold leading-8 text-slate-50;
+    @apply block w-full font-semibold leading-8 text-blue-50;
   }
 
   &_section {
@@ -43,7 +43,4 @@
 .Open {
   @apply left-0 transition-all;
   @apply md:left-3/4;
-}
-
-.Close {
 }

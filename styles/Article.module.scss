@@ -24,16 +24,16 @@ $HeaderHeight: 40rem;
   height: $HeaderHeight - 6.5rem;
 
   &_h1 {
-    @apply text-3xl font-bold text-slate-50 drop-shadow-sm;
+    @apply text-3xl font-bold text-blue-50 drop-shadow-sm;
     @apply md:text-5xl;
   }
 
   &_p {
-    @apply text-xl font-semibold text-slate-300 drop-shadow-sm;
+    @apply text-xl font-semibold text-blue-100 drop-shadow-sm;
   }
 
   strong {
-    @apply text-slate-50;
+    @apply text-blue-50;
   }
 }
 
@@ -56,17 +56,17 @@ $HeaderHeight: 40rem;
 }
 
 .Section {
-  @apply mb-16;
+  @apply mb-16 clear-both;
 }
 
 .H2 {
-  @apply border-b-4 border-orange-400 pb-2 text-3xl font-bold after:clear-both;
+  @apply border-b-2 border-blue-400 pb-2 text-3xl font-bold after:clear-both;
 }
 
-.H3 {
-  @apply border-b-2 border-slate-400 pb-2 font-bold after:clear-both;
-}
+// .H3 {
+//   @apply border-b-2 border-blue-400 pb-2 font-bold after:clear-both;
+// }
 
-.H4 {
-  @apply border-b border-slate-400 mb-2 pb-1 font-semibold after:clear-both;
-}
+// .H4 {
+//   @apply border-b border-blue-400 mb-2 pb-1 font-semibold after:clear-both;
+// }

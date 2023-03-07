@@ -2,13 +2,13 @@
   $parent: &;
 
   &_container {
-    @apply flex h-full flex-col rounded-lg border border-slate-300 bg-slate-50 p-4 shadow-sm;
+    @apply flex h-full flex-col rounded-lg border border-stone-300 bg-stone-50 p-4 shadow-sm;
 
     &:hover {
-      @apply bg-slate-200 shadow-md transition-all;
+      @apply bg-stone-200 shadow-md transition-all;
 
       #{$parent}_h2 {
-        @apply text-orange-600;
+        @apply text-blue-500;
       }
 
       #{$parent}_img {

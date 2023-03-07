@@ -2,6 +2,7 @@ import { useState } from "react";
 import NavbarPanel from "./NavbarPanel";
 
 import { BiMenu } from "react-icons/bi"; 
+import layoutStyles from "@/styles/Layout.module.scss";
 
 function Navbar() {
 	let [isOpen, setTogglePanel] = useState(false);
@@ -12,7 +13,7 @@ function Navbar() {
 
 	return (
 		<>
-            <button className="text-4xl text-slate-50 hover:text-orange-400" onClick={handleMenu}>
+            <button className={layoutStyles.Button} onClick={handleMenu}>
                 <BiMenu />
             </button>
 

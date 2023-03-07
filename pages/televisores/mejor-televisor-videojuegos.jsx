@@ -56,11 +56,8 @@ export default function Home({mejoresVideojuegos}) {
 
             <section className={ArticleStyles.Section}>
                 <h2 className={ArticleStyles.H2}>Sonido</h2>
+                <Image className={ArticleStyles.Img_right} src='/archivo/pexels-evg-kowalievska-1174746.jpg' alt='Jugando con mando PS4' title='Tamaño de pantalla' width={512} height={300} />
                 <p>El sonido es una parte importante de la experiencia de juego. Muchos televisores modernos tienen altavoces integrados, pero para una experiencia de sonido más envolvente, se recomienda utilizar altavoces externos o un sistema de sonido envolvente.</p>
-            </section>
-
-            <section className={ArticleStyles.Section}>
-                <Image className={ArticleStyles.Img_center} src='/archivo/pexels-evg-kowalievska-1174746.jpg' alt='Jugando con mando PS4' title='Tamaño de pantalla' width={512} height={300} />
             </section>
 
             <section className={ArticleStyles.Section}>
@@ -70,11 +67,8 @@ export default function Home({mejoresVideojuegos}) {
 
             <section className={ArticleStyles.Section}>
                 <h2 className={ArticleStyles.H2}>Comentarios y opiniones de otros usuarios</h2>
+                <Image className={ArticleStyles.Img_right} src='/archivo/pexels-cottonbro-studio-4009592.jpg' alt='personas jugando en el sofa' title='Comentarios y opiniones de otros usuarios' width={512} height={300} />
                 <p>Antes de comprar un televisor para juegos, es importante investigar y leer los comentarios y opiniones de otros usuarios. Esto puede ayudar a determinar qué características son importantes y cuáles son las mejores opciones dentro de un presupuesto determinado.</p>
-            </section>
-
-            <section className={ArticleStyles.Section}>
-                <Image className={ArticleStyles.Img_center} src='/archivo/pexels-cottonbro-studio-4009592.jpg' alt='personas jugando en el sofa' title='Comentarios y opiniones de otros usuarios' width={512} height={300} />
             </section>
 
             <section className={ArticleStyles.Section}>

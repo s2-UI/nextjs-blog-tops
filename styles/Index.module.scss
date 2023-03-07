@@ -1,22 +1,22 @@
 .Header {
-  @apply bg-slate-300 shadow-sm;
+  @apply bg-stone-800;
 
   &_h1 {
-    @apply mb-8 text-2xl font-bold text-slate-800;
+    @apply mb-8 text-2xl font-bold text-stone-100;
     @apply md:text-4xl;
   }
 
-  &_cap {
-    @apply -mb-1 ml-1 font-semibold text-slate-800;
-  }
-
-  &_subtitle {
-    @apply font-semibold text-slate-800;
-    @apply md:pr-96;
-  }
-
   &_p {
-    @apply mb-0 font-semibold text-slate-600;
+    @apply mb-0 font-semibold text-stone-400;
+
+    strong {
+      @apply font-bold text-stone-50;
+    }
+
+    a {
+      @apply text-blue-400;
+      @apply hover:text-blue-100;
+    }
   }
 }
 
