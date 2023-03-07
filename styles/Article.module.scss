@@ -57,11 +57,20 @@ $HeaderHeight: 40rem;
 
 .Section {
   @apply mb-16 clear-both;
+
+  p {
+    @apply mb-8 leading-7;
+
+    a {
+      @apply font-semibold;
+    }
+  }
 }
 
 .H2 {
   @apply border-b-2 border-blue-400 pb-2 text-3xl font-bold after:clear-both;
 }
+
 
 // .H3 {
 //   @apply border-b-2 border-blue-400 pb-2 font-bold after:clear-both;
