@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://www.reviewshub.es/</loc>
-  <lastmod>2023-03-03T20:55:42+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://www.reviewshub.es/</loc>
+	<lastmod>2023-03-08T00:53:15+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://www.reviewshub.es/televisores/mejor-televisor-videojuegos</loc>
-  <lastmod>2023-03-03T20:55:42+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.reviewshub.es/televisores/smartv-menos-500</loc>
+	<lastmod>2023-03-08T00:53:15+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://www.reviewshub.es/televisores/cinco-mejores-oled-55</loc>
-  <lastmod>2023-03-03T20:55:42+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.reviewshub.es/televisores/mejores-smart-tv-65</loc>
+	<lastmod>2023-03-08T00:53:15+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://www.reviewshub.es/televisores/mejores-televisores-2023</loc>
-  <lastmod>2023-03-03T20:55:42+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.reviewshub.es/televisores/mejor-televisor-videojuegos</loc>
+	<lastmod>2023-03-08T00:53:15+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://www.reviewshub.es/televisores/las-cinco-mejores-marcas</loc>
-  <lastmod>2023-03-03T20:55:42+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.reviewshub.es/televisores/cinco-mejores-oled-55</loc>
+	<lastmod>2023-03-08T00:53:15+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
-
-
+<url>
+	<loc>https://www.reviewshub.es/televisores/mejores-televisores-2023</loc>
+	<lastmod>2023-03-08T00:53:15+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.reviewshub.es/televisores/las-cinco-mejores-marcas</loc>
+	<lastmod>2023-03-08T00:53:15+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.reviewshub.es/sonido/sony-ht-a3000</loc>
+	<lastmod>2023-03-08T00:53:15+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://www.reviewshub.es/televisores/guia-comprar-smart-tv</loc>
+	<lastmod>2023-03-08T00:53:15+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>
