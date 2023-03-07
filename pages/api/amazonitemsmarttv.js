@@ -348,3 +348,76 @@ export const mejoresSmartBaratos = [
     linkTitle: 'Ver en Amazon el Hisense 55A63H',
   },
 ];
+
+export const mejoresSmart65 = [
+  {
+    id: uuidv4(),
+    img: '/tvs/LG_UQ80006.jpg',
+    imgAlt: 'Imágen de la LG Televisor 65UQ80006LB',
+    imgTitle: 'LG Televisor 65UQ80006LB',
+    texts: [
+      '<strong>LG Televisor 65UQ80006LB</strong>',
+      'Smart TV webOS22 65 pulgadas (164 cm) 4K UHD, Procesador de Gran Potencia 4K a5 Gen 5, compatible con formatos HDR 10, H y HGiG.',
+    ],
+    value: 4,
+    reviews: 108,
+    link: 'https://amzn.to/3kUxp2F',
+    linkTitle: 'Ver en Amazon el LG Televisor 65UQ80006LB',
+  },
+  {
+    id: uuidv4(),
+    img: '/tvs/Samsung_65Q60B.jpg',
+    imgAlt: 'Imágen de la Samsung TV QLED 4K 2022 65Q60B',
+    imgTitle: 'Samsung TV QLED 4K 2022 65Q60B',
+    texts: [
+      '<strong>Samsung TV QLED 4K 2022 65Q60B</strong>',
+      'Smart TV de 65" con Resolución 4K, 100% Volumen de color, Procesdor QLED 4K Lite, Quantum HDR10+, Multi View y Modo Juego Panorámico y Alexa integrada.',
+    ],
+    value: 5,
+    reviews: 22,
+    link: 'https://amzn.to/3mzDClb',
+    linkTitle: 'Ver en Amazon el Samsung TV QLED 4K 2022 65Q60B',
+  },
+  {
+    id: uuidv4(),
+    img: '/tvs/philips_50PUS8517.jpg',
+    imgAlt: 'Imágen de la Philips 65PUS8807',
+    imgTitle: 'Philips 65PUS8807',
+    texts: [
+      '<strong>Philips 65PUS8807</strong>',
+      'The One, Android TV LED 4K UHD Ambilight de 65". Dolby Vision cinematográfico y Sonido Atmo. Asistente de Google Integrado, Compatible con Alexa, 2022.',
+    ],
+    value: 5,
+    reviews: 1.616,
+    link: 'https://amzn.to/3ZwjZZK',
+    linkTitle: 'Ver en Amazon el Philips 65PUS8807',
+  },
+  {
+    id: uuidv4(),
+    img: '/tvs/Samsung_65QN85B.jpg',
+    imgAlt: 'Imágen de la Samsung Smart TV Neo QLED 4K 2022 65QN85B',
+    imgTitle: 'Samsung Smart TV Neo QLED 4K 2022 65QN85B',
+    texts: [
+      '<strong>Samsung Smart TV Neo QLED 4K 2022 65QN85B</strong>',
+      'Samsung Smart TV Neo QLED 4K 2022 65QN85B - 65" con Resolución 4K, Quantum Matrix Technology, Procesador Neo QLED 4K con Inteligencia Artificial, Quantum HDR 1500, 60W Dolby Atmos y Alexa Integrada.',
+    ],
+    value: 5,
+    reviews: 195,
+    link: 'https://amzn.to/3mxgPGB',
+    linkTitle: 'Ver en Amazon el Samsung Smart TV Neo QLED 4K 2022 65QN85B',
+  },
+  {
+    id: uuidv4(),
+    img: '/tvs/Sony_65A80K.jpg',
+    imgAlt: 'Imágen de la Sony OLED - 65A80K/P',
+    imgTitle: 'Sony OLED - 65A80K/P',
+    texts: [
+      '<strong>Sony OLED - 65A80K/P</strong>',
+      'Sony OLED - 65A80K/P BRAVIA XR, televisor inteligente Google 65 pulgadas, 4K/P HDR 120Hz y HDMI 2.1 para PS5, Dolby Vision-Atmos, Pantalla Triluminos Pro.',
+    ],
+    value: 5,
+    reviews: 131,
+    link: 'https://amzn.to/3IYNImV',
+    linkTitle: 'Ver en Amazon el Sony OLED - 65A80K/P',
+  },
+];

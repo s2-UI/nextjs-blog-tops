@@ -9,7 +9,7 @@ import AmazonItem from '@/components/AmazonItem'
 export default function Home({mejoresSmartBaratos}) {
   return (
     <Layout 
-    title="Las mejores TV por menos de 500 euros - Guía de compra actualizada" 
+    title="Las mejores TV por menos de 500 euros - Guía de compra 2023" 
     description="Descubre las mejores opciones de televisores por menos de 500 euros en el mercado. Conoce las características clave a buscar y elige el televisor perfecto para ti. Guía de compra actualizada y detallada."
     canonical='https://www.reviewshub.es/televisores/smartv-menos-500'
     >
@@ -108,11 +108,11 @@ export default function Home({mejoresSmartBaratos}) {
 
             <section className={ArticleStyles.Section}>
               <header>
-                <h2 className={ArticleStyles.H2}>LG 55UQ7500LF-ALEXA: una experiencia inmersiva y de calidad</h2>
+                <h2 className={ArticleStyles.H2}><Link href="https://amzn.to/3SZf695" title="Ver en Amazon el LG Televisor 55UQ75006LF" target="_blank">LG 55UQ7500LF-ALEXA</Link>: una experiencia inmersiva y de calidad</h2>
                 <AmazonItem data={mejoresSmartBaratos[2]} />
               </header>
               <div>
-                <p>El LG 55UQ7500LF-ALEXA es un televisor disponible en el 2022 que ofrece una experiencia de visualización inmersiva y de alta calidad en una pantalla de <strong>55 pulgadas</strong>. Este televisor sucesor del LG 55UP7500LF-ALEXA del 2021, presenta un <strong>diseño minimalista</strong> que hace que el <strong>marco sea casi invisible</strong>, lo que da la impresión de una pantalla más grande.</p>
+                <p>El <Link href="https://amzn.to/3SZf695" title="Ver en Amazon el LG Televisor 55UQ75006LF" target="_blank">LG 55UQ7500LF-ALEXA</Link> es un televisor que ofrece una experiencia de visualización inmersiva y de alta calidad en una pantalla de <strong>55 pulgadas</strong>. Este televisor sucesor del LG 55UP7500LF-ALEXA del 2021, presenta un <strong>diseño minimalista</strong> que hace que el <strong>marco sea casi invisible</strong>, lo que da la impresión de una pantalla más grande.</p>
                 <h3 className={ArticleStyles.H3}>Calidad de imagen excepcional</h3>
                 <p>La calidad de imagen de este televisor es impresionante considerando su precio. Con una resolución nativa <strong>Ultra HD 4K</strong> y una tasa de refresco de <strong>60 Hz</strong>, las imágenes en pantalla son muy nítidas y claras. Además, el televisor cuenta con un reescalado automático en contenidos de baja resolución mediante inteligencia artificial. También es compatible con los formatos <strong>HDR10</strong> y <strong>HLG</strong>, lo que significa que ofrece una mayor profundidad de color y contraste.</p>
                 <h3 className={ArticleStyles.H3}>Sonido básico</h3>
@@ -120,11 +120,11 @@ export default function Home({mejoresSmartBaratos}) {
                 <h3 className={ArticleStyles.H3}>Conectividad y funcionalidades</h3>
                 <p>En la parte trasera del televisor, encontramos <strong>tres canales HDMI 2.0</strong> para conectar videoconsolas y otros dispositivos, <strong>USB 2.0 para grabar</strong>, una <strong>salida óptica para la barra de sonido</strong>, RJ-45 para la conexión a Internet por cable y conexiones para antenas terrestres, de satélite y de cable.</p>
                 <p>El sistema operativo del LG 55UQ75006LF es webOS22, que suelen utilizar las marcas coreanas en sus televisores, y la <strong>interfaz está bien organizada y fácil de usar</strong>. Se pueden acceder a decenas de programas de entretenimiento en 4K, incluyendo <strong>Netflix, HBO Max, Amazon Video, Disney Plus, Dazn, Orange TV, Movistar y Vodafone</strong>, mediante el control remoto estándar o con el <strong>Magic Control</strong>, que se adquiere por separado y admite el reconocimiento de voz con <strong>Amazon Alexa y Google Assistant</strong> y otros dispositivos inteligentes.</p>
-                <p>Funciones adicionales como el modo director con <strong>FILMMAKER</strong>, el <strong>modo de juego</strong> con ALLM que reduce la latencia cuando se conecta a una videoconsola, y el juego en la nube con Google Stadia y Geforce Now, hacen del LG 55UQ7500LF-ALEXA una opción atractiva para los usuarios que buscan una experiencia de visualización de calidad a un precio razonable.</p>
+                <p>Funciones adicionales como el modo director con <strong>FILMMAKER</strong>, el <strong>modo de juego</strong> con ALLM que reduce la latencia cuando se conecta a una videoconsola, y el juego en la nube con Google Stadia y Geforce Now, hacen del <Link href="https://amzn.to/3SZf695" title="Ver en Amazon el LG Televisor 55UQ75006LF" target="_blank">LG 55UQ7500LF-ALEXA</Link> una opción atractiva para los usuarios que buscan una experiencia de visualización de calidad a un precio razonable.</p>
               </div>
               <footer>
-                <h4 className={ArticleStyles.H4}>Conclusión</h4>
-                <p>El televisor LG 55UQ7500LF-ALEXA ofrece una experiencia de <strong>visualización inmersiva y de alta calidad</strong> con un precio muy competitivo. Con su diseño minimalista y sus funciones avanzadas, este televisor es perfecto para los usuarios que buscan una opción de <strong>entretenimiento económica pero de calidad</strong>.</p>
+                <h3 className={ArticleStyles.H3}>Conclusión</h3>
+                <p>El televisor <Link href="https://amzn.to/3SZf695" title="Ver en Amazon el LG Televisor 55UQ75006LF" target="_blank">LG 55UQ7500LF-ALEXA</Link> ofrece una experiencia de <strong>visualización inmersiva y de alta calidad</strong> con un precio muy competitivo. Con su diseño minimalista y sus funciones avanzadas, este televisor es perfecto para los usuarios que buscan una opción de <strong>entretenimiento económica pero de calidad</strong>.</p>
               </footer>
             </section>
 

@@ -3,6 +3,16 @@ import { v4 as uuidv4 } from 'uuid';
 export const abstractArticles = [
   {
     id: uuidv4(),
+    link: '/televisores/mejores-smart-tv-65', 
+    linkTitle: 'Encuentra tu Smart TV 65 ideal en el 2023', 
+    img: '/archivo/LG_4K_Curved_OLED_TV.jpg', 
+    imgTitle: 'Encuentra tu Smart TV 65 ideal en el 2023', 
+    imgAlt: 'Imágen Encuentra tu Smart TV 65 ideal en el 2023', 
+    title: 'Encuentra tu Smart TV 65 ideal en el 2023', 
+    description: 'Descubre las opciones más destacadas de Smart TV de 65" en el 2023 y disfruta de una experiencia de visualización incomparable con lo último en tecnología y calidad de imagen.',
+  },
+  {
+    id: uuidv4(),
     link: '/televisores/smartv-menos-500', 
     linkTitle: 'Ver las mejores TV por menos de 500 euros', 
     img: '/archivo/fondo_smart.jpg', 

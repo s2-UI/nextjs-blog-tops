@@ -42,6 +42,11 @@ function NavbarPanel({ isOpen, setTogglePanel }) {
                     </Link>
                 </li>
                 <li className={navbarPanel.Nav_li}>
+                    <Link className={navbarPanel.Nav_a} href="/televisores/mejores-smart-tv-65" title="Las mejores TV 65 pulgadas">
+                        Las mejores TV 65 pulgadas
+                    </Link>
+                </li>
+                <li className={navbarPanel.Nav_li}>
                     <Link className={navbarPanel.Nav_a} href="/televisores/mejor-televisor-videojuegos" title="Cómo elegir el mejor televisor para videojuegos">
                         Mejor televisor para videojuegos
                     </Link>
