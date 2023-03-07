@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 import Navbar from "@/components/Navbar";
 
@@ -23,8 +24,9 @@ function Layout({ children, title, description, keywords="televisores 2023, comp
         <header className={layoutStyles.Header}>
             <div className={layoutStyles.Header_container}>
                 <div className={layoutStyles.Header_left}>
-                    <Link className={layoutStyles.Logo} href="/" title="ReviewsHub.es">ReviewsHub.es</Link>
-                    {/* <Image className={styles.Logo} src="/logo.png" alt="Logo principal de pickiwise" width={512} height={512} /> */}
+                    <Link className={layoutStyles.Logo} href="/" title="ReviewsHub.es">
+                        <Image className={layoutStyles.Logo} src="/logo.png" alt="Logo principal de ReviewsHub" width={512} height={512} />
+                    </Link>
                 </div>
                 <div className={layoutStyles.Header_right}>
                     <Navbar />

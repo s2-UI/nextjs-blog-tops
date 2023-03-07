@@ -25,6 +25,11 @@ function NavbarPanel({ isOpen, setTogglePanel }) {
         <button className={navbarPanel.Nav_close} onClick={handleMenu}>
             <FaTimes />
         </button>
+        <div className={navbarPanel.Nav_section}>
+            <Link className={`${navbarPanel.Nav_title} mb-8`} href="/" title="Análisis y sugerencias en vídeo, audio y más">
+                Inicio
+            </Link>
+        </div>
         <div className={`${navbarPanel.Nav_section} ${isVideoOpen ? navbarPanel.Nav_show : navbarPanel.Nav_hide}`}>
             <p className={navbarPanel.Nav_title} onClick={handleVideoSubMenu}>
                 Vídeo
